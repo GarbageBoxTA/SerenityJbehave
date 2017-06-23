@@ -1,6 +1,6 @@
 #org.jbehave.core.embedder.StoryManager
-#Fri Jun 09 00:02:45 EEST 2017
+#Fri Jun 23 12:16:33 EEST 2017
 threads=1
-total=9000
-stories/ForgotPw.story=9000
-threadAverage=9000
+total=1000
+stories/ForgotPw.story=1000
+threadAverage=1000

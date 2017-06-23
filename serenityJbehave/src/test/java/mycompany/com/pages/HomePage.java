@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
  *
  */
 @At(urls = { "#HOST/#/" })
-@DefaultUrl("https://dou.ua/")
+@DefaultUrl("https://www.google.com.ua/")
 public class HomePage extends AnyPage {
 
     public HomePage(WebDriver driver) {

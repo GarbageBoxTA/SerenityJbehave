@@ -1,2 +1,83 @@
 <story path="stories/ForgotPw.story" title="">
 <scenario keyword="Scenario:" title="forgtot pasword pop up">
+<step outcome="pending" keyword="PENDING">Given the unsigned user accesses the conference management home page</step>
+<step outcome="pending" keyword="PENDING">When user clicks the login button</step>
+<step outcome="pending" keyword="PENDING">And clicks the forgot password link</step>
+<step outcome="pending" keyword="PENDING">Then new pop up will appears saying Send me a new password to my email address:</step>
+<step outcome="pending" keyword="PENDING">And Cancel button appears</step>
+<step outcome="pending" keyword="PENDING">And Continue button appears</step>
+<pendingMethod>@Given(&quot;the unsigned user accesses the conference management home page&quot;)
+@Pending
+public void givenTheUnsignedUserAccessesTheConferenceManagementHomePage() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;user clicks the login button&quot;)
+@Pending
+public void whenUserClicksTheLoginButton() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;clicks the forgot password link&quot;)
+@Pending
+public void whenClicksTheForgotPasswordLink() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;new pop up will appears saying Send me a new password to my email address:&quot;)
+@Pending
+public void thenNewPopUpWillAppearsSayingSendMeANewPasswordToMyEmailAddress() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;Cancel button appears&quot;)
+@Pending
+public void thenCancelButtonAppears() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;Continue button appears&quot;)
+@Pending
+public void thenContinueButtonAppears() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="Empty E-mail field  in  Sign in form">
+<step outcome="pending" keyword="PENDING">Given the user accesses the conference management home page</step>
+<step outcome="pending" keyword="PENDING">When user clicks the Your Account button</step>
+<step outcome="pending" keyword="PENDING">And clicks the Forgot password link</step>
+<step outcome="pending" keyword="PENDING">Then new pop up will appear</step>
+<step outcome="pending" keyword="PENDING">And then click Continue button leaving E-mail field behind</step>
+<pendingMethod>@Given(&quot;the user accesses the conference management home page&quot;)
+@Pending
+public void givenTheUserAccessesTheConferenceManagementHomePage() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;user clicks the Your Account button&quot;)
+@Pending
+public void whenUserClicksTheYourAccountButton() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;clicks the Forgot password link&quot;)
+@Pending
+public void whenClicksTheForgotPasswordLink() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;new pop up will appear&quot;)
+@Pending
+public void thenNewPopUpWillAppear() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;then click Continue button leaving E-mail field behind&quot;)
+@Pending
+public void thenThenClickContinueButtonLeavingEmailFieldBehind() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>
