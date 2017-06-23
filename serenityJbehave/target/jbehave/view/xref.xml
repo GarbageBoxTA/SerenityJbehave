@@ -2,7 +2,7 @@
   <stories>
     <performableStory>
       <story>
-        <path>stories/ForgotPw.story</path>
+        <path>stories/Google.story</path>
         <description>
           <descriptionAsString></descriptionAsString>
         </description>
@@ -102,7 +102,10 @@
               </examplesTable>
             </givenStories>
             <examplesTable>
-              <tableAsString></tableAsString>
+              <tableAsString>|&lt;data&gt;|&#xd;
+|huawei p8 lite|&#xd;
+|iphone 6s|&#xd;
+|rozetka|</tableAsString>
               <headerSeparator>|</headerSeparator>
               <valueSeparator>|</valueSeparator>
               <ignorableSeparator>|--</ignorableSeparator>
@@ -122,8 +125,29 @@
                   </entry>
                 </transformers>
               </tableTransformers>
-              <headers/>
-              <data/>
+              <headers>
+                <string>&lt;data&gt;</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>huawei p8 lite</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>iphone 6s</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>rozetka</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
               <properties>
                 <property name="headerSeparator" value="|"/>
                 <property name="valueSeparator" value="|"/>
@@ -134,103 +158,20 @@
               <trim>true</trim>
             </examplesTable>
             <steps>
-              <string>Given the unsigned user accesses the conference management home page</string>
-              <string>When user clicks the login button</string>
-              <string>And clicks the forgot password link</string>
-              <string>Then new pop up will appears saying Send me a new password to my email address:</string>
-              <string>And Cancel button appears</string>
-              <string>And Continue button appears</string>
-            </steps>
-          </scenario>
-          <scenario>
-            <title>Empty E-mail field  in  Sign in form</title>
-            <meta>
-              <properties/>
-            </meta>
-            <givenStories>
-              <givenStories/>
-              <givenStoriesAsString></givenStoriesAsString>
-              <examplesTable>
-                <tableAsString></tableAsString>
-                <headerSeparator>|</headerSeparator>
-                <valueSeparator>|</valueSeparator>
-                <ignorableSeparator>|--</ignorableSeparator>
-                <tableTransformers>
-                  <transformers>
-                    <entry>
-                      <string>FORMATTING</string>
-                      <formatting/>
-                    </entry>
-                    <entry>
-                      <string>REPLACING</string>
-                      <replacing/>
-                    </entry>
-                    <entry>
-                      <string>FROM_LANDSCAPE</string>
-                      <fromLandscape/>
-                    </entry>
-                  </transformers>
-                </tableTransformers>
-                <headers/>
-                <data/>
-                <properties>
-                  <property name="headerSeparator" value="|"/>
-                  <property name="valueSeparator" value="|"/>
-                  <property name="ignorableSeparator" value="|--"/>
-                </properties>
-                <propertiesAsString></propertiesAsString>
-                <namedParameters/>
-                <trim>true</trim>
-              </examplesTable>
-            </givenStories>
-            <examplesTable>
-              <tableAsString></tableAsString>
-              <headerSeparator>|</headerSeparator>
-              <valueSeparator>|</valueSeparator>
-              <ignorableSeparator>|--</ignorableSeparator>
-              <tableTransformers>
-                <transformers>
-                  <entry>
-                    <string>FORMATTING</string>
-                    <formatting/>
-                  </entry>
-                  <entry>
-                    <string>REPLACING</string>
-                    <replacing/>
-                  </entry>
-                  <entry>
-                    <string>FROM_LANDSCAPE</string>
-                    <fromLandscape/>
-                  </entry>
-                </transformers>
-              </tableTransformers>
-              <headers/>
-              <data/>
-              <properties>
-                <property name="headerSeparator" value="|"/>
-                <property name="valueSeparator" value="|"/>
-                <property name="ignorableSeparator" value="|--"/>
-              </properties>
-              <propertiesAsString></propertiesAsString>
-              <namedParameters/>
-              <trim>true</trim>
-            </examplesTable>
-            <steps>
-              <string>Given the user accesses the conference management home page</string>
-              <string>When user clicks the Your Account button</string>
-              <string>And clicks the Forgot password link</string>
-              <string>Then new pop up will appear</string>
-              <string>And then click Continue button leaving E-mail field behind</string>
+              <string>Given the unsigned user accesses the google home page</string>
+              <string>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</string>
             </steps>
           </scenario>
         </scenarios>
-        <name>ForgotPw.story</name>
+        <name>Google.story</name>
       </story>
       <localizedNarrative>As a 
 I want to 
 So that </localizedNarrative>
       <allowed>true</allowed>
-      <status>PENDING</status>
+      <status>SUCCESSFUL</status>
       <givenStories/>
       <scenarios>
         <performableScenario>
@@ -276,7 +217,10 @@ So that </localizedNarrative>
               </examplesTable>
             </givenStories>
             <examplesTable>
-              <tableAsString></tableAsString>
+              <tableAsString>|&lt;data&gt;|&#xd;
+|huawei p8 lite|&#xd;
+|iphone 6s|&#xd;
+|rozetka|</tableAsString>
               <headerSeparator>|</headerSeparator>
               <valueSeparator>|</valueSeparator>
               <ignorableSeparator>|--</ignorableSeparator>
@@ -296,8 +240,29 @@ So that </localizedNarrative>
                   </entry>
                 </transformers>
               </tableTransformers>
-              <headers/>
-              <data/>
+              <headers>
+                <string>&lt;data&gt;</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>huawei p8 lite</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>iphone 6s</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>rozetka</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
               <properties>
                 <property name="headerSeparator" value="|"/>
                 <property name="valueSeparator" value="|"/>
@@ -308,615 +273,103 @@ So that </localizedNarrative>
               <trim>true</trim>
             </examplesTable>
             <steps>
-              <string>Given the unsigned user accesses the conference management home page</string>
-              <string>When user clicks the login button</string>
-              <string>And clicks the forgot password link</string>
-              <string>Then new pop up will appears saying Send me a new password to my email address:</string>
-              <string>And Cancel button appears</string>
-              <string>And Continue button appears</string>
+              <string>Given the unsigned user accesses the google home page</string>
+              <string>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</string>
             </steps>
           </scenario>
-          <storyPath>stories/ForgotPw.story</storyPath>
+          <storyPath>stories/Google.story</storyPath>
           <allowed>true</allowed>
-          <normalPerformableScenario>
-            <parameters/>
-            <givenStories/>
-            <beforeSteps>
-              <matches/>
-            </beforeSteps>
-            <steps>
-              <matches/>
-              <results>
-                <pending>
-                  <step>Given the unsigned user accesses the conference management home page</step>
-                  <type>PENDING</type>
-                  <throwable class="org.jbehave.core.failures.PendingStepFound">
-                    <detailMessage>Given the unsigned user accesses the conference management home page</detailMessage>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>58cfd800-e897-4cb6-b350-5f028a6b1297</uuid>
-                  </throwable>
-                  <durationInMillis>0</durationInMillis>
-                  <start>0</start>
-                  <end>0</end>
-                </pending>
-                <pending>
-                  <step>When user clicks the login button</step>
-                  <type>PENDING</type>
-                  <throwable class="org.jbehave.core.failures.PendingStepFound">
-                    <detailMessage>When user clicks the login button</detailMessage>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>e4d9d94c-324b-4f4a-bd3f-e1c6a5960841</uuid>
-                  </throwable>
-                  <durationInMillis>0</durationInMillis>
-                  <start>0</start>
-                  <end>0</end>
-                </pending>
-                <pending>
-                  <step>And clicks the forgot password link</step>
-                  <type>PENDING</type>
-                  <throwable class="org.jbehave.core.failures.PendingStepFound">
-                    <detailMessage>And clicks the forgot password link</detailMessage>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>97a635c4-94fa-4aa5-9877-c55ce311582d</uuid>
-                  </throwable>
-                  <durationInMillis>0</durationInMillis>
-                  <start>0</start>
-                  <end>0</end>
-                </pending>
-                <pending>
-                  <step>Then new pop up will appears saying Send me a new password to my email address:</step>
-                  <type>PENDING</type>
-                  <throwable class="org.jbehave.core.failures.PendingStepFound">
-                    <detailMessage>Then new pop up will appears saying Send me a new password to my email address:</detailMessage>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>04426cf3-4783-4faf-8f5f-be1b9d5931ae</uuid>
-                  </throwable>
-                  <durationInMillis>0</durationInMillis>
-                  <start>0</start>
-                  <end>0</end>
-                </pending>
-                <pending>
-                  <step>And Cancel button appears</step>
-                  <type>PENDING</type>
-                  <throwable class="org.jbehave.core.failures.PendingStepFound">
-                    <detailMessage>And Cancel button appears</detailMessage>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>ce81b209-2ebb-4583-b97c-96ac7b40d612</uuid>
-                  </throwable>
-                  <durationInMillis>0</durationInMillis>
-                  <start>0</start>
-                  <end>0</end>
-                </pending>
-                <pending>
-                  <step>And Continue button appears</step>
-                  <type>PENDING</type>
-                  <throwable class="org.jbehave.core.failures.PendingStepFound">
-                    <detailMessage>And Continue button appears</detailMessage>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>cde8ea16-bbb2-424d-a22f-ad29de9051b9</uuid>
-                  </throwable>
-                  <durationInMillis>0</durationInMillis>
-                  <start>0</start>
-                  <end>0</end>
-                </pending>
-              </results>
-            </steps>
-            <afterSteps>
-              <matches/>
-            </afterSteps>
-            <storyAndScenarioMeta>
-              <properties/>
-            </storyAndScenarioMeta>
-            <scenario>
-              <title>forgtot pasword pop up</title>
-              <meta>
-                <properties/>
-              </meta>
-              <givenStories>
-                <givenStories/>
-                <givenStoriesAsString></givenStoriesAsString>
-                <examplesTable>
-                  <tableAsString></tableAsString>
-                  <headerSeparator>|</headerSeparator>
-                  <valueSeparator>|</valueSeparator>
-                  <ignorableSeparator>|--</ignorableSeparator>
-                  <tableTransformers>
-                    <transformers>
-                      <entry>
-                        <string>FORMATTING</string>
-                        <formatting/>
-                      </entry>
-                      <entry>
-                        <string>REPLACING</string>
-                        <replacing/>
-                      </entry>
-                      <entry>
-                        <string>FROM_LANDSCAPE</string>
-                        <fromLandscape/>
-                      </entry>
-                    </transformers>
-                  </tableTransformers>
-                  <headers/>
-                  <data/>
-                  <properties>
-                    <property name="headerSeparator" value="|"/>
-                    <property name="valueSeparator" value="|"/>
-                    <property name="ignorableSeparator" value="|--"/>
-                  </properties>
-                  <propertiesAsString></propertiesAsString>
-                  <namedParameters/>
-                  <trim>true</trim>
-                </examplesTable>
-              </givenStories>
-              <examplesTable>
-                <tableAsString></tableAsString>
-                <headerSeparator>|</headerSeparator>
-                <valueSeparator>|</valueSeparator>
-                <ignorableSeparator>|--</ignorableSeparator>
-                <tableTransformers>
-                  <transformers>
-                    <entry>
-                      <string>FORMATTING</string>
-                      <formatting/>
-                    </entry>
-                    <entry>
-                      <string>REPLACING</string>
-                      <replacing/>
-                    </entry>
-                    <entry>
-                      <string>FROM_LANDSCAPE</string>
-                      <fromLandscape/>
-                    </entry>
-                  </transformers>
-                </tableTransformers>
-                <headers/>
-                <data/>
-                <properties>
-                  <property name="headerSeparator" value="|"/>
-                  <property name="valueSeparator" value="|"/>
-                  <property name="ignorableSeparator" value="|--"/>
-                </properties>
-                <propertiesAsString></propertiesAsString>
-                <namedParameters/>
-                <trim>true</trim>
-              </examplesTable>
-              <steps>
-                <string>Given the unsigned user accesses the conference management home page</string>
-                <string>When user clicks the login button</string>
-                <string>And clicks the forgot password link</string>
-                <string>Then new pop up will appears saying Send me a new password to my email address:</string>
-                <string>And Cancel button appears</string>
-                <string>And Continue button appears</string>
-              </steps>
-            </scenario>
-          </normalPerformableScenario>
-          <examplePerformableScenarios/>
-          <status>PENDING</status>
-        </performableScenario>
-        <performableScenario>
-          <scenario>
-            <title>Empty E-mail field  in  Sign in form</title>
-            <meta>
-              <properties/>
-            </meta>
-            <givenStories>
+          <examplePerformableScenarios>
+            <examplePerformableScenario>
+              <parameters class="linked-hash-map">
+                <entry>
+                  <string>&lt;data&gt;</string>
+                  <string>huawei p8 lite</string>
+                </entry>
+              </parameters>
               <givenStories/>
-              <givenStoriesAsString></givenStoriesAsString>
-              <examplesTable>
-                <tableAsString></tableAsString>
-                <headerSeparator>|</headerSeparator>
-                <valueSeparator>|</valueSeparator>
-                <ignorableSeparator>|--</ignorableSeparator>
-                <tableTransformers>
-                  <transformers>
-                    <entry>
-                      <string>FORMATTING</string>
-                      <formatting/>
-                    </entry>
-                    <entry>
-                      <string>REPLACING</string>
-                      <replacing/>
-                    </entry>
-                    <entry>
-                      <string>FROM_LANDSCAPE</string>
-                      <fromLandscape/>
-                    </entry>
-                  </transformers>
-                </tableTransformers>
-                <headers/>
-                <data/>
-                <properties>
-                  <property name="headerSeparator" value="|"/>
-                  <property name="valueSeparator" value="|"/>
-                  <property name="ignorableSeparator" value="|--"/>
-                </properties>
-                <propertiesAsString></propertiesAsString>
-                <namedParameters/>
-                <trim>true</trim>
-              </examplesTable>
-            </givenStories>
-            <examplesTable>
-              <tableAsString></tableAsString>
-              <headerSeparator>|</headerSeparator>
-              <valueSeparator>|</valueSeparator>
-              <ignorableSeparator>|--</ignorableSeparator>
-              <tableTransformers>
-                <transformers>
-                  <entry>
-                    <string>FORMATTING</string>
-                    <formatting/>
-                  </entry>
-                  <entry>
-                    <string>REPLACING</string>
-                    <replacing/>
-                  </entry>
-                  <entry>
-                    <string>FROM_LANDSCAPE</string>
-                    <fromLandscape/>
-                  </entry>
-                </transformers>
-              </tableTransformers>
-              <headers/>
-              <data/>
-              <properties>
-                <property name="headerSeparator" value="|"/>
-                <property name="valueSeparator" value="|"/>
-                <property name="ignorableSeparator" value="|--"/>
-              </properties>
-              <propertiesAsString></propertiesAsString>
-              <namedParameters/>
-              <trim>true</trim>
-            </examplesTable>
-            <steps>
-              <string>Given the user accesses the conference management home page</string>
-              <string>When user clicks the Your Account button</string>
-              <string>And clicks the Forgot password link</string>
-              <string>Then new pop up will appear</string>
-              <string>And then click Continue button leaving E-mail field behind</string>
-            </steps>
-          </scenario>
-          <storyPath>stories/ForgotPw.story</storyPath>
-          <allowed>true</allowed>
-          <normalPerformableScenario>
-            <parameters/>
-            <givenStories/>
-            <beforeSteps>
-              <matches/>
-            </beforeSteps>
-            <steps>
-              <matches/>
-              <results>
-                <pending>
-                  <step>Given the user accesses the conference management home page</step>
-                  <type>PENDING</type>
-                  <throwable class="org.jbehave.core.failures.PendingStepFound">
-                    <detailMessage>Given the user accesses the conference management home page</detailMessage>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>bc9d5ff7-d5e8-4ab8-afef-a7c4d5bc7437</uuid>
-                  </throwable>
-                  <durationInMillis>0</durationInMillis>
-                  <start>0</start>
-                  <end>0</end>
-                </pending>
-                <pending>
-                  <step>When user clicks the Your Account button</step>
-                  <type>PENDING</type>
-                  <throwable class="org.jbehave.core.failures.PendingStepFound">
-                    <detailMessage>When user clicks the Your Account button</detailMessage>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>d3830269-816f-41d5-ad63-001a5dd75500</uuid>
-                  </throwable>
-                  <durationInMillis>0</durationInMillis>
-                  <start>0</start>
-                  <end>0</end>
-                </pending>
-                <pending>
-                  <step>And clicks the Forgot password link</step>
-                  <type>PENDING</type>
-                  <throwable class="org.jbehave.core.failures.PendingStepFound">
-                    <detailMessage>And clicks the Forgot password link</detailMessage>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>31342ef5-e14f-4b71-adcb-af2f684111ed</uuid>
-                  </throwable>
-                  <durationInMillis>0</durationInMillis>
-                  <start>0</start>
-                  <end>0</end>
-                </pending>
-                <pending>
-                  <step>Then new pop up will appear</step>
-                  <type>PENDING</type>
-                  <throwable class="org.jbehave.core.failures.PendingStepFound">
-                    <detailMessage>Then new pop up will appear</detailMessage>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>45afcafb-01d0-446c-a7bf-1a6d765205e2</uuid>
-                  </throwable>
-                  <durationInMillis>0</durationInMillis>
-                  <start>0</start>
-                  <end>0</end>
-                </pending>
-                <pending>
-                  <step>And then click Continue button leaving E-mail field behind</step>
-                  <type>PENDING</type>
-                  <throwable class="org.jbehave.core.failures.PendingStepFound">
-                    <detailMessage>And then click Continue button leaving E-mail field behind</detailMessage>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>da25df29-7c04-42a4-b796-0ac557066c3a</uuid>
-                  </throwable>
-                  <durationInMillis>0</durationInMillis>
-                  <start>0</start>
-                  <end>0</end>
-                </pending>
-              </results>
-            </steps>
-            <afterSteps>
-              <matches/>
-            </afterSteps>
-            <storyAndScenarioMeta>
-              <properties/>
-            </storyAndScenarioMeta>
-            <scenario>
-              <title>Empty E-mail field  in  Sign in form</title>
-              <meta>
+              <beforeSteps>
+                <matches/>
+              </beforeSteps>
+              <steps>
+                <matches/>
+                <results>
+                  <successful>
+                    <step>Given the unsigned user accesses the google home page</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Given the unsigned user accesses the google home page</parametrisedStep>
+                    <durationInMillis>7998</durationInMillis>
+                    <start>1498212031896</start>
+                    <end>1498212039894</end>
+                  </successful>
+                  <successful>
+                    <step>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>When user searches some data:&#xd;
+［|data|&#xd;
+|&lt;data&gt;|］</parametrisedStep>
+                    <durationInMillis>2003</durationInMillis>
+                    <start>1498212041501</start>
+                    <end>1498212043504</end>
+                  </successful>
+                </results>
+              </steps>
+              <afterSteps>
+                <matches/>
+              </afterSteps>
+              <storyAndScenarioMeta>
                 <properties/>
-              </meta>
-              <givenStories>
-                <givenStories/>
-                <givenStoriesAsString></givenStoriesAsString>
+              </storyAndScenarioMeta>
+              <scenario>
+                <title>forgtot pasword pop up</title>
+                <meta>
+                  <properties/>
+                </meta>
+                <givenStories>
+                  <givenStories/>
+                  <givenStoriesAsString></givenStoriesAsString>
+                  <examplesTable>
+                    <tableAsString></tableAsString>
+                    <headerSeparator>|</headerSeparator>
+                    <valueSeparator>|</valueSeparator>
+                    <ignorableSeparator>|--</ignorableSeparator>
+                    <tableTransformers>
+                      <transformers>
+                        <entry>
+                          <string>FORMATTING</string>
+                          <formatting/>
+                        </entry>
+                        <entry>
+                          <string>REPLACING</string>
+                          <replacing/>
+                        </entry>
+                        <entry>
+                          <string>FROM_LANDSCAPE</string>
+                          <fromLandscape/>
+                        </entry>
+                      </transformers>
+                    </tableTransformers>
+                    <headers/>
+                    <data/>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                    <propertiesAsString></propertiesAsString>
+                    <namedParameters/>
+                    <trim>true</trim>
+                  </examplesTable>
+                </givenStories>
                 <examplesTable>
-                  <tableAsString></tableAsString>
+                  <tableAsString>|&lt;data&gt;|&#xd;
+|huawei p8 lite|&#xd;
+|iphone 6s|&#xd;
+|rozetka|</tableAsString>
                   <headerSeparator>|</headerSeparator>
                   <valueSeparator>|</valueSeparator>
                   <ignorableSeparator>|--</ignorableSeparator>
@@ -936,8 +389,29 @@ So that </localizedNarrative>
                       </entry>
                     </transformers>
                   </tableTransformers>
-                  <headers/>
-                  <data/>
+                  <headers>
+                    <string>&lt;data&gt;</string>
+                  </headers>
+                  <data>
+                    <linked-hash-map>
+                      <entry>
+                        <string>&lt;data&gt;</string>
+                        <string>huawei p8 lite</string>
+                      </entry>
+                    </linked-hash-map>
+                    <linked-hash-map>
+                      <entry>
+                        <string>&lt;data&gt;</string>
+                        <string>iphone 6s</string>
+                      </entry>
+                    </linked-hash-map>
+                    <linked-hash-map>
+                      <entry>
+                        <string>&lt;data&gt;</string>
+                        <string>rozetka</string>
+                      </entry>
+                    </linked-hash-map>
+                  </data>
                   <properties>
                     <property name="headerSeparator" value="|"/>
                     <property name="valueSeparator" value="|"/>
@@ -947,58 +421,318 @@ So that </localizedNarrative>
                   <namedParameters/>
                   <trim>true</trim>
                 </examplesTable>
-              </givenStories>
-              <examplesTable>
-                <tableAsString></tableAsString>
-                <headerSeparator>|</headerSeparator>
-                <valueSeparator>|</valueSeparator>
-                <ignorableSeparator>|--</ignorableSeparator>
-                <tableTransformers>
-                  <transformers>
-                    <entry>
-                      <string>FORMATTING</string>
-                      <formatting/>
-                    </entry>
-                    <entry>
-                      <string>REPLACING</string>
-                      <replacing/>
-                    </entry>
-                    <entry>
-                      <string>FROM_LANDSCAPE</string>
-                      <fromLandscape/>
-                    </entry>
-                  </transformers>
-                </tableTransformers>
-                <headers/>
-                <data/>
-                <properties>
-                  <property name="headerSeparator" value="|"/>
-                  <property name="valueSeparator" value="|"/>
-                  <property name="ignorableSeparator" value="|--"/>
-                </properties>
-                <propertiesAsString></propertiesAsString>
-                <namedParameters/>
-                <trim>true</trim>
-              </examplesTable>
+                <steps>
+                  <string>Given the unsigned user accesses the google home page</string>
+                  <string>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</string>
+                </steps>
+              </scenario>
+            </examplePerformableScenario>
+            <examplePerformableScenario>
+              <parameters class="linked-hash-map">
+                <entry>
+                  <string>&lt;data&gt;</string>
+                  <string>iphone 6s</string>
+                </entry>
+              </parameters>
+              <givenStories/>
+              <beforeSteps>
+                <matches/>
+              </beforeSteps>
               <steps>
-                <string>Given the user accesses the conference management home page</string>
-                <string>When user clicks the Your Account button</string>
-                <string>And clicks the Forgot password link</string>
-                <string>Then new pop up will appear</string>
-                <string>And then click Continue button leaving E-mail field behind</string>
+                <matches/>
+                <results>
+                  <successful>
+                    <step>Given the unsigned user accesses the google home page</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Given the unsigned user accesses the google home page</parametrisedStep>
+                    <durationInMillis>6750</durationInMillis>
+                    <start>1498212044243</start>
+                    <end>1498212050993</end>
+                  </successful>
+                  <successful>
+                    <step>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>When user searches some data:&#xd;
+［|data|&#xd;
+|&lt;data&gt;|］</parametrisedStep>
+                    <durationInMillis>1787</durationInMillis>
+                    <start>1498212052108</start>
+                    <end>1498212053895</end>
+                  </successful>
+                </results>
               </steps>
-            </scenario>
-          </normalPerformableScenario>
-          <examplePerformableScenarios/>
-          <status>PENDING</status>
+              <afterSteps>
+                <matches/>
+              </afterSteps>
+              <storyAndScenarioMeta>
+                <properties/>
+              </storyAndScenarioMeta>
+              <scenario>
+                <title>forgtot pasword pop up</title>
+                <meta>
+                  <properties/>
+                </meta>
+                <givenStories>
+                  <givenStories/>
+                  <givenStoriesAsString></givenStoriesAsString>
+                  <examplesTable>
+                    <tableAsString></tableAsString>
+                    <headerSeparator>|</headerSeparator>
+                    <valueSeparator>|</valueSeparator>
+                    <ignorableSeparator>|--</ignorableSeparator>
+                    <tableTransformers>
+                      <transformers>
+                        <entry>
+                          <string>FORMATTING</string>
+                          <formatting/>
+                        </entry>
+                        <entry>
+                          <string>REPLACING</string>
+                          <replacing/>
+                        </entry>
+                        <entry>
+                          <string>FROM_LANDSCAPE</string>
+                          <fromLandscape/>
+                        </entry>
+                      </transformers>
+                    </tableTransformers>
+                    <headers/>
+                    <data/>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                    <propertiesAsString></propertiesAsString>
+                    <namedParameters/>
+                    <trim>true</trim>
+                  </examplesTable>
+                </givenStories>
+                <examplesTable>
+                  <tableAsString>|&lt;data&gt;|&#xd;
+|huawei p8 lite|&#xd;
+|iphone 6s|&#xd;
+|rozetka|</tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers>
+                    <string>&lt;data&gt;</string>
+                  </headers>
+                  <data>
+                    <linked-hash-map>
+                      <entry>
+                        <string>&lt;data&gt;</string>
+                        <string>huawei p8 lite</string>
+                      </entry>
+                    </linked-hash-map>
+                    <linked-hash-map>
+                      <entry>
+                        <string>&lt;data&gt;</string>
+                        <string>iphone 6s</string>
+                      </entry>
+                    </linked-hash-map>
+                    <linked-hash-map>
+                      <entry>
+                        <string>&lt;data&gt;</string>
+                        <string>rozetka</string>
+                      </entry>
+                    </linked-hash-map>
+                  </data>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+                <steps>
+                  <string>Given the unsigned user accesses the google home page</string>
+                  <string>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</string>
+                </steps>
+              </scenario>
+            </examplePerformableScenario>
+            <examplePerformableScenario>
+              <parameters class="linked-hash-map">
+                <entry>
+                  <string>&lt;data&gt;</string>
+                  <string>rozetka</string>
+                </entry>
+              </parameters>
+              <givenStories/>
+              <beforeSteps>
+                <matches/>
+              </beforeSteps>
+              <steps>
+                <matches/>
+                <results>
+                  <successful>
+                    <step>Given the unsigned user accesses the google home page</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Given the unsigned user accesses the google home page</parametrisedStep>
+                    <durationInMillis>6567</durationInMillis>
+                    <start>1498212054861</start>
+                    <end>1498212061428</end>
+                  </successful>
+                  <successful>
+                    <step>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>When user searches some data:&#xd;
+［|data|&#xd;
+|&lt;data&gt;|］</parametrisedStep>
+                    <durationInMillis>1670</durationInMillis>
+                    <start>1498212062752</start>
+                    <end>1498212064422</end>
+                  </successful>
+                </results>
+              </steps>
+              <afterSteps>
+                <matches/>
+              </afterSteps>
+              <storyAndScenarioMeta>
+                <properties/>
+              </storyAndScenarioMeta>
+              <scenario>
+                <title>forgtot pasword pop up</title>
+                <meta>
+                  <properties/>
+                </meta>
+                <givenStories>
+                  <givenStories/>
+                  <givenStoriesAsString></givenStoriesAsString>
+                  <examplesTable>
+                    <tableAsString></tableAsString>
+                    <headerSeparator>|</headerSeparator>
+                    <valueSeparator>|</valueSeparator>
+                    <ignorableSeparator>|--</ignorableSeparator>
+                    <tableTransformers>
+                      <transformers>
+                        <entry>
+                          <string>FORMATTING</string>
+                          <formatting/>
+                        </entry>
+                        <entry>
+                          <string>REPLACING</string>
+                          <replacing/>
+                        </entry>
+                        <entry>
+                          <string>FROM_LANDSCAPE</string>
+                          <fromLandscape/>
+                        </entry>
+                      </transformers>
+                    </tableTransformers>
+                    <headers/>
+                    <data/>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                    <propertiesAsString></propertiesAsString>
+                    <namedParameters/>
+                    <trim>true</trim>
+                  </examplesTable>
+                </givenStories>
+                <examplesTable>
+                  <tableAsString>|&lt;data&gt;|&#xd;
+|huawei p8 lite|&#xd;
+|iphone 6s|&#xd;
+|rozetka|</tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers>
+                    <string>&lt;data&gt;</string>
+                  </headers>
+                  <data>
+                    <linked-hash-map>
+                      <entry>
+                        <string>&lt;data&gt;</string>
+                        <string>huawei p8 lite</string>
+                      </entry>
+                    </linked-hash-map>
+                    <linked-hash-map>
+                      <entry>
+                        <string>&lt;data&gt;</string>
+                        <string>iphone 6s</string>
+                      </entry>
+                    </linked-hash-map>
+                    <linked-hash-map>
+                      <entry>
+                        <string>&lt;data&gt;</string>
+                        <string>rozetka</string>
+                      </entry>
+                    </linked-hash-map>
+                  </data>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+                <steps>
+                  <string>Given the unsigned user accesses the google home page</string>
+                  <string>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</string>
+                </steps>
+              </scenario>
+            </examplePerformableScenario>
+          </examplePerformableScenarios>
+          <status>SUCCESSFUL</status>
         </performableScenario>
       </scenarios>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>728</durationInMillis>
-        <start>1498209392663</start>
-        <end>1498209393391</end>
+        <durationInMillis>34158</durationInMillis>
+        <start>1498212031611</start>
+        <end>1498212065769</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -1047,7 +781,10 @@ So that </localizedNarrative>
           </examplesTable>
         </givenStories>
         <examplesTable>
-          <tableAsString></tableAsString>
+          <tableAsString>|&lt;data&gt;|&#xd;
+|huawei p8 lite|&#xd;
+|iphone 6s|&#xd;
+|rozetka|</tableAsString>
           <headerSeparator>|</headerSeparator>
           <valueSeparator>|</valueSeparator>
           <ignorableSeparator>|--</ignorableSeparator>
@@ -1067,8 +804,29 @@ So that </localizedNarrative>
               </entry>
             </transformers>
           </tableTransformers>
-          <headers/>
-          <data/>
+          <headers>
+            <string>&lt;data&gt;</string>
+          </headers>
+          <data>
+            <linked-hash-map>
+              <entry>
+                <string>&lt;data&gt;</string>
+                <string>huawei p8 lite</string>
+              </entry>
+            </linked-hash-map>
+            <linked-hash-map>
+              <entry>
+                <string>&lt;data&gt;</string>
+                <string>iphone 6s</string>
+              </entry>
+            </linked-hash-map>
+            <linked-hash-map>
+              <entry>
+                <string>&lt;data&gt;</string>
+                <string>rozetka</string>
+              </entry>
+            </linked-hash-map>
+          </data>
           <properties>
             <property name="headerSeparator" value="|"/>
             <property name="valueSeparator" value="|"/>
@@ -1079,615 +837,103 @@ So that </localizedNarrative>
           <trim>true</trim>
         </examplesTable>
         <steps>
-          <string>Given the unsigned user accesses the conference management home page</string>
-          <string>When user clicks the login button</string>
-          <string>And clicks the forgot password link</string>
-          <string>Then new pop up will appears saying Send me a new password to my email address:</string>
-          <string>And Cancel button appears</string>
-          <string>And Continue button appears</string>
+          <string>Given the unsigned user accesses the google home page</string>
+          <string>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</string>
         </steps>
       </scenario>
-      <storyPath>stories/ForgotPw.story</storyPath>
+      <storyPath>stories/Google.story</storyPath>
       <allowed>true</allowed>
-      <normalPerformableScenario>
-        <parameters/>
-        <givenStories/>
-        <beforeSteps>
-          <matches/>
-        </beforeSteps>
-        <steps>
-          <matches/>
-          <results>
-            <pending>
-              <step>Given the unsigned user accesses the conference management home page</step>
-              <type>PENDING</type>
-              <throwable class="org.jbehave.core.failures.PendingStepFound">
-                <detailMessage>Given the unsigned user accesses the conference management home page</detailMessage>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>58cfd800-e897-4cb6-b350-5f028a6b1297</uuid>
-              </throwable>
-              <durationInMillis>0</durationInMillis>
-              <start>0</start>
-              <end>0</end>
-            </pending>
-            <pending>
-              <step>When user clicks the login button</step>
-              <type>PENDING</type>
-              <throwable class="org.jbehave.core.failures.PendingStepFound">
-                <detailMessage>When user clicks the login button</detailMessage>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>e4d9d94c-324b-4f4a-bd3f-e1c6a5960841</uuid>
-              </throwable>
-              <durationInMillis>0</durationInMillis>
-              <start>0</start>
-              <end>0</end>
-            </pending>
-            <pending>
-              <step>And clicks the forgot password link</step>
-              <type>PENDING</type>
-              <throwable class="org.jbehave.core.failures.PendingStepFound">
-                <detailMessage>And clicks the forgot password link</detailMessage>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>97a635c4-94fa-4aa5-9877-c55ce311582d</uuid>
-              </throwable>
-              <durationInMillis>0</durationInMillis>
-              <start>0</start>
-              <end>0</end>
-            </pending>
-            <pending>
-              <step>Then new pop up will appears saying Send me a new password to my email address:</step>
-              <type>PENDING</type>
-              <throwable class="org.jbehave.core.failures.PendingStepFound">
-                <detailMessage>Then new pop up will appears saying Send me a new password to my email address:</detailMessage>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>04426cf3-4783-4faf-8f5f-be1b9d5931ae</uuid>
-              </throwable>
-              <durationInMillis>0</durationInMillis>
-              <start>0</start>
-              <end>0</end>
-            </pending>
-            <pending>
-              <step>And Cancel button appears</step>
-              <type>PENDING</type>
-              <throwable class="org.jbehave.core.failures.PendingStepFound">
-                <detailMessage>And Cancel button appears</detailMessage>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>ce81b209-2ebb-4583-b97c-96ac7b40d612</uuid>
-              </throwable>
-              <durationInMillis>0</durationInMillis>
-              <start>0</start>
-              <end>0</end>
-            </pending>
-            <pending>
-              <step>And Continue button appears</step>
-              <type>PENDING</type>
-              <throwable class="org.jbehave.core.failures.PendingStepFound">
-                <detailMessage>And Continue button appears</detailMessage>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>cde8ea16-bbb2-424d-a22f-ad29de9051b9</uuid>
-              </throwable>
-              <durationInMillis>0</durationInMillis>
-              <start>0</start>
-              <end>0</end>
-            </pending>
-          </results>
-        </steps>
-        <afterSteps>
-          <matches/>
-        </afterSteps>
-        <storyAndScenarioMeta>
-          <properties/>
-        </storyAndScenarioMeta>
-        <scenario>
-          <title>forgtot pasword pop up</title>
-          <meta>
-            <properties/>
-          </meta>
-          <givenStories>
-            <givenStories/>
-            <givenStoriesAsString></givenStoriesAsString>
-            <examplesTable>
-              <tableAsString></tableAsString>
-              <headerSeparator>|</headerSeparator>
-              <valueSeparator>|</valueSeparator>
-              <ignorableSeparator>|--</ignorableSeparator>
-              <tableTransformers>
-                <transformers>
-                  <entry>
-                    <string>FORMATTING</string>
-                    <formatting/>
-                  </entry>
-                  <entry>
-                    <string>REPLACING</string>
-                    <replacing/>
-                  </entry>
-                  <entry>
-                    <string>FROM_LANDSCAPE</string>
-                    <fromLandscape/>
-                  </entry>
-                </transformers>
-              </tableTransformers>
-              <headers/>
-              <data/>
-              <properties>
-                <property name="headerSeparator" value="|"/>
-                <property name="valueSeparator" value="|"/>
-                <property name="ignorableSeparator" value="|--"/>
-              </properties>
-              <propertiesAsString></propertiesAsString>
-              <namedParameters/>
-              <trim>true</trim>
-            </examplesTable>
-          </givenStories>
-          <examplesTable>
-            <tableAsString></tableAsString>
-            <headerSeparator>|</headerSeparator>
-            <valueSeparator>|</valueSeparator>
-            <ignorableSeparator>|--</ignorableSeparator>
-            <tableTransformers>
-              <transformers>
-                <entry>
-                  <string>FORMATTING</string>
-                  <formatting/>
-                </entry>
-                <entry>
-                  <string>REPLACING</string>
-                  <replacing/>
-                </entry>
-                <entry>
-                  <string>FROM_LANDSCAPE</string>
-                  <fromLandscape/>
-                </entry>
-              </transformers>
-            </tableTransformers>
-            <headers/>
-            <data/>
-            <properties>
-              <property name="headerSeparator" value="|"/>
-              <property name="valueSeparator" value="|"/>
-              <property name="ignorableSeparator" value="|--"/>
-            </properties>
-            <propertiesAsString></propertiesAsString>
-            <namedParameters/>
-            <trim>true</trim>
-          </examplesTable>
-          <steps>
-            <string>Given the unsigned user accesses the conference management home page</string>
-            <string>When user clicks the login button</string>
-            <string>And clicks the forgot password link</string>
-            <string>Then new pop up will appears saying Send me a new password to my email address:</string>
-            <string>And Cancel button appears</string>
-            <string>And Continue button appears</string>
-          </steps>
-        </scenario>
-      </normalPerformableScenario>
-      <examplePerformableScenarios/>
-      <status>PENDING</status>
-    </performableScenario>
-    <performableScenario>
-      <scenario>
-        <title>Empty E-mail field  in  Sign in form</title>
-        <meta>
-          <properties/>
-        </meta>
-        <givenStories>
+      <examplePerformableScenarios>
+        <examplePerformableScenario>
+          <parameters class="linked-hash-map">
+            <entry>
+              <string>&lt;data&gt;</string>
+              <string>huawei p8 lite</string>
+            </entry>
+          </parameters>
           <givenStories/>
-          <givenStoriesAsString></givenStoriesAsString>
-          <examplesTable>
-            <tableAsString></tableAsString>
-            <headerSeparator>|</headerSeparator>
-            <valueSeparator>|</valueSeparator>
-            <ignorableSeparator>|--</ignorableSeparator>
-            <tableTransformers>
-              <transformers>
-                <entry>
-                  <string>FORMATTING</string>
-                  <formatting/>
-                </entry>
-                <entry>
-                  <string>REPLACING</string>
-                  <replacing/>
-                </entry>
-                <entry>
-                  <string>FROM_LANDSCAPE</string>
-                  <fromLandscape/>
-                </entry>
-              </transformers>
-            </tableTransformers>
-            <headers/>
-            <data/>
-            <properties>
-              <property name="headerSeparator" value="|"/>
-              <property name="valueSeparator" value="|"/>
-              <property name="ignorableSeparator" value="|--"/>
-            </properties>
-            <propertiesAsString></propertiesAsString>
-            <namedParameters/>
-            <trim>true</trim>
-          </examplesTable>
-        </givenStories>
-        <examplesTable>
-          <tableAsString></tableAsString>
-          <headerSeparator>|</headerSeparator>
-          <valueSeparator>|</valueSeparator>
-          <ignorableSeparator>|--</ignorableSeparator>
-          <tableTransformers>
-            <transformers>
-              <entry>
-                <string>FORMATTING</string>
-                <formatting/>
-              </entry>
-              <entry>
-                <string>REPLACING</string>
-                <replacing/>
-              </entry>
-              <entry>
-                <string>FROM_LANDSCAPE</string>
-                <fromLandscape/>
-              </entry>
-            </transformers>
-          </tableTransformers>
-          <headers/>
-          <data/>
-          <properties>
-            <property name="headerSeparator" value="|"/>
-            <property name="valueSeparator" value="|"/>
-            <property name="ignorableSeparator" value="|--"/>
-          </properties>
-          <propertiesAsString></propertiesAsString>
-          <namedParameters/>
-          <trim>true</trim>
-        </examplesTable>
-        <steps>
-          <string>Given the user accesses the conference management home page</string>
-          <string>When user clicks the Your Account button</string>
-          <string>And clicks the Forgot password link</string>
-          <string>Then new pop up will appear</string>
-          <string>And then click Continue button leaving E-mail field behind</string>
-        </steps>
-      </scenario>
-      <storyPath>stories/ForgotPw.story</storyPath>
-      <allowed>true</allowed>
-      <normalPerformableScenario>
-        <parameters/>
-        <givenStories/>
-        <beforeSteps>
-          <matches/>
-        </beforeSteps>
-        <steps>
-          <matches/>
-          <results>
-            <pending>
-              <step>Given the user accesses the conference management home page</step>
-              <type>PENDING</type>
-              <throwable class="org.jbehave.core.failures.PendingStepFound">
-                <detailMessage>Given the user accesses the conference management home page</detailMessage>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>bc9d5ff7-d5e8-4ab8-afef-a7c4d5bc7437</uuid>
-              </throwable>
-              <durationInMillis>0</durationInMillis>
-              <start>0</start>
-              <end>0</end>
-            </pending>
-            <pending>
-              <step>When user clicks the Your Account button</step>
-              <type>PENDING</type>
-              <throwable class="org.jbehave.core.failures.PendingStepFound">
-                <detailMessage>When user clicks the Your Account button</detailMessage>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>d3830269-816f-41d5-ad63-001a5dd75500</uuid>
-              </throwable>
-              <durationInMillis>0</durationInMillis>
-              <start>0</start>
-              <end>0</end>
-            </pending>
-            <pending>
-              <step>And clicks the Forgot password link</step>
-              <type>PENDING</type>
-              <throwable class="org.jbehave.core.failures.PendingStepFound">
-                <detailMessage>And clicks the Forgot password link</detailMessage>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>31342ef5-e14f-4b71-adcb-af2f684111ed</uuid>
-              </throwable>
-              <durationInMillis>0</durationInMillis>
-              <start>0</start>
-              <end>0</end>
-            </pending>
-            <pending>
-              <step>Then new pop up will appear</step>
-              <type>PENDING</type>
-              <throwable class="org.jbehave.core.failures.PendingStepFound">
-                <detailMessage>Then new pop up will appear</detailMessage>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>45afcafb-01d0-446c-a7bf-1a6d765205e2</uuid>
-              </throwable>
-              <durationInMillis>0</durationInMillis>
-              <start>0</start>
-              <end>0</end>
-            </pending>
-            <pending>
-              <step>And then click Continue button leaving E-mail field behind</step>
-              <type>PENDING</type>
-              <throwable class="org.jbehave.core.failures.PendingStepFound">
-                <detailMessage>And then click Continue button leaving E-mail field behind</detailMessage>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
-                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
-                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>da25df29-7c04-42a4-b796-0ac557066c3a</uuid>
-              </throwable>
-              <durationInMillis>0</durationInMillis>
-              <start>0</start>
-              <end>0</end>
-            </pending>
-          </results>
-        </steps>
-        <afterSteps>
-          <matches/>
-        </afterSteps>
-        <storyAndScenarioMeta>
-          <properties/>
-        </storyAndScenarioMeta>
-        <scenario>
-          <title>Empty E-mail field  in  Sign in form</title>
-          <meta>
+          <beforeSteps>
+            <matches/>
+          </beforeSteps>
+          <steps>
+            <matches/>
+            <results>
+              <successful>
+                <step>Given the unsigned user accesses the google home page</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Given the unsigned user accesses the google home page</parametrisedStep>
+                <durationInMillis>7998</durationInMillis>
+                <start>1498212031896</start>
+                <end>1498212039894</end>
+              </successful>
+              <successful>
+                <step>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>When user searches some data:&#xd;
+［|data|&#xd;
+|&lt;data&gt;|］</parametrisedStep>
+                <durationInMillis>2003</durationInMillis>
+                <start>1498212041501</start>
+                <end>1498212043504</end>
+              </successful>
+            </results>
+          </steps>
+          <afterSteps>
+            <matches/>
+          </afterSteps>
+          <storyAndScenarioMeta>
             <properties/>
-          </meta>
-          <givenStories>
-            <givenStories/>
-            <givenStoriesAsString></givenStoriesAsString>
+          </storyAndScenarioMeta>
+          <scenario>
+            <title>forgtot pasword pop up</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
             <examplesTable>
-              <tableAsString></tableAsString>
+              <tableAsString>|&lt;data&gt;|&#xd;
+|huawei p8 lite|&#xd;
+|iphone 6s|&#xd;
+|rozetka|</tableAsString>
               <headerSeparator>|</headerSeparator>
               <valueSeparator>|</valueSeparator>
               <ignorableSeparator>|--</ignorableSeparator>
@@ -1707,8 +953,29 @@ So that </localizedNarrative>
                   </entry>
                 </transformers>
               </tableTransformers>
-              <headers/>
-              <data/>
+              <headers>
+                <string>&lt;data&gt;</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>huawei p8 lite</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>iphone 6s</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>rozetka</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
               <properties>
                 <property name="headerSeparator" value="|"/>
                 <property name="valueSeparator" value="|"/>
@@ -1718,50 +985,310 @@ So that </localizedNarrative>
               <namedParameters/>
               <trim>true</trim>
             </examplesTable>
-          </givenStories>
-          <examplesTable>
-            <tableAsString></tableAsString>
-            <headerSeparator>|</headerSeparator>
-            <valueSeparator>|</valueSeparator>
-            <ignorableSeparator>|--</ignorableSeparator>
-            <tableTransformers>
-              <transformers>
-                <entry>
-                  <string>FORMATTING</string>
-                  <formatting/>
-                </entry>
-                <entry>
-                  <string>REPLACING</string>
-                  <replacing/>
-                </entry>
-                <entry>
-                  <string>FROM_LANDSCAPE</string>
-                  <fromLandscape/>
-                </entry>
-              </transformers>
-            </tableTransformers>
-            <headers/>
-            <data/>
-            <properties>
-              <property name="headerSeparator" value="|"/>
-              <property name="valueSeparator" value="|"/>
-              <property name="ignorableSeparator" value="|--"/>
-            </properties>
-            <propertiesAsString></propertiesAsString>
-            <namedParameters/>
-            <trim>true</trim>
-          </examplesTable>
+            <steps>
+              <string>Given the unsigned user accesses the google home page</string>
+              <string>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</string>
+            </steps>
+          </scenario>
+        </examplePerformableScenario>
+        <examplePerformableScenario>
+          <parameters class="linked-hash-map">
+            <entry>
+              <string>&lt;data&gt;</string>
+              <string>iphone 6s</string>
+            </entry>
+          </parameters>
+          <givenStories/>
+          <beforeSteps>
+            <matches/>
+          </beforeSteps>
           <steps>
-            <string>Given the user accesses the conference management home page</string>
-            <string>When user clicks the Your Account button</string>
-            <string>And clicks the Forgot password link</string>
-            <string>Then new pop up will appear</string>
-            <string>And then click Continue button leaving E-mail field behind</string>
+            <matches/>
+            <results>
+              <successful>
+                <step>Given the unsigned user accesses the google home page</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Given the unsigned user accesses the google home page</parametrisedStep>
+                <durationInMillis>6750</durationInMillis>
+                <start>1498212044243</start>
+                <end>1498212050993</end>
+              </successful>
+              <successful>
+                <step>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>When user searches some data:&#xd;
+［|data|&#xd;
+|&lt;data&gt;|］</parametrisedStep>
+                <durationInMillis>1787</durationInMillis>
+                <start>1498212052108</start>
+                <end>1498212053895</end>
+              </successful>
+            </results>
           </steps>
-        </scenario>
-      </normalPerformableScenario>
-      <examplePerformableScenarios/>
-      <status>PENDING</status>
+          <afterSteps>
+            <matches/>
+          </afterSteps>
+          <storyAndScenarioMeta>
+            <properties/>
+          </storyAndScenarioMeta>
+          <scenario>
+            <title>forgtot pasword pop up</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|&lt;data&gt;|&#xd;
+|huawei p8 lite|&#xd;
+|iphone 6s|&#xd;
+|rozetka|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>&lt;data&gt;</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>huawei p8 lite</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>iphone 6s</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>rozetka</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the unsigned user accesses the google home page</string>
+              <string>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</string>
+            </steps>
+          </scenario>
+        </examplePerformableScenario>
+        <examplePerformableScenario>
+          <parameters class="linked-hash-map">
+            <entry>
+              <string>&lt;data&gt;</string>
+              <string>rozetka</string>
+            </entry>
+          </parameters>
+          <givenStories/>
+          <beforeSteps>
+            <matches/>
+          </beforeSteps>
+          <steps>
+            <matches/>
+            <results>
+              <successful>
+                <step>Given the unsigned user accesses the google home page</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Given the unsigned user accesses the google home page</parametrisedStep>
+                <durationInMillis>6567</durationInMillis>
+                <start>1498212054861</start>
+                <end>1498212061428</end>
+              </successful>
+              <successful>
+                <step>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>When user searches some data:&#xd;
+［|data|&#xd;
+|&lt;data&gt;|］</parametrisedStep>
+                <durationInMillis>1670</durationInMillis>
+                <start>1498212062752</start>
+                <end>1498212064422</end>
+              </successful>
+            </results>
+          </steps>
+          <afterSteps>
+            <matches/>
+          </afterSteps>
+          <storyAndScenarioMeta>
+            <properties/>
+          </storyAndScenarioMeta>
+          <scenario>
+            <title>forgtot pasword pop up</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|&lt;data&gt;|&#xd;
+|huawei p8 lite|&#xd;
+|iphone 6s|&#xd;
+|rozetka|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>&lt;data&gt;</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>huawei p8 lite</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>iphone 6s</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>&lt;data&gt;</string>
+                    <string>rozetka</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the unsigned user accesses the google home page</string>
+              <string>When user searches some data:&#xd;
+|data|&#xd;
+|&lt;data&gt;|</string>
+            </steps>
+          </scenario>
+        </examplePerformableScenario>
+      </examplePerformableScenarios>
+      <status>SUCCESSFUL</status>
     </performableScenario>
   </scenarios>
 </xref>

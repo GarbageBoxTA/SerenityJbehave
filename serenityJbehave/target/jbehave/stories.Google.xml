@@ -1,0 +1,43 @@
+<story path="stories/Google.story" title="">
+<scenario keyword="Scenario:" title="forgtot pasword pop up">
+<examples keyword="Examples:">
+<step>Given the unsigned user accesses the google home page</step>
+<step>When user searches some data:
+|data|
+|&lt;data&gt;|</step>
+<parameters>
+<names><name>&lt;data&gt;</name></names>
+<values><value>huawei p8 lite</value></values>
+<values><value>iphone 6s</value></values>
+<values><value>rozetka</value></values>
+</parameters>
+
+<example keyword="Example:">{&lt;data&gt;=huawei p8 lite}</example>
+<step outcome="successful">Given the unsigned user accesses the google home page</step>
+<step outcome="successful">When user searches some data:
+<parameter><parameters>
+<names><name>data</name></names>
+<values><value>&amp;lt;data&amp;gt;</value></values>
+</parameters>
+</parameter></step>
+
+<example keyword="Example:">{&lt;data&gt;=iphone 6s}</example>
+<step outcome="successful">Given the unsigned user accesses the google home page</step>
+<step outcome="successful">When user searches some data:
+<parameter><parameters>
+<names><name>data</name></names>
+<values><value>&amp;lt;data&amp;gt;</value></values>
+</parameters>
+</parameter></step>
+
+<example keyword="Example:">{&lt;data&gt;=rozetka}</example>
+<step outcome="successful">Given the unsigned user accesses the google home page</step>
+<step outcome="successful">When user searches some data:
+<parameter><parameters>
+<names><name>data</name></names>
+<values><value>&amp;lt;data&amp;gt;</value></values>
+</parameters>
+</parameter></step>
+</examples>
+</scenario>
+</story>

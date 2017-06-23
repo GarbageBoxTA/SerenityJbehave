@@ -21,7 +21,7 @@ public class AccountMenuFragmentImpl extends WidgetObjectImpl implements Account
         super(page, locator, timeoutInMilliseconds);
     }
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//*[@id=\"gb_70\"]")
     WebElementFacade loginBtn;
 
     @FindBy(xpath = "")

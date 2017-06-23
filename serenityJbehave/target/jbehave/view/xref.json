@@ -2,7 +2,7 @@
   "stories": [
     {
       "story": {
-        "path": "stories/ForgotPw.story",
+        "path": "stories/Google.story",
         "description": {
           "descriptionAsString": ""
         },
@@ -120,7 +120,7 @@
               }
             },
             "examplesTable": {
-              "tableAsString": "",
+              "tableAsString": "|<data>|\r\n|huawei p8 lite|\r\n|iphone 6s|\r\n|rozetka|",
               "headerSeparator": "|",
               "valueSeparator": "|",
               "ignorableSeparator": "|--",
@@ -140,108 +140,29 @@
                   ]
                 ]
               },
-              "headers": [],
-              "data": [],
-              "properties": [
-                {
-                  "@name": "headerSeparator",
-                  "@value": "|"
-                },
-                {
-                  "@name": "valueSeparator",
-                  "@value": "|"
-                },
-                {
-                  "@name": "ignorableSeparator",
-                  "@value": "|--"
-                }
+              "headers": [
+                "<data>"
               ],
-              "propertiesAsString": "",
-              "namedParameters": [],
-              "trim": true
-            },
-            "steps": [
-              "Given the unsigned user accesses the conference management home page",
-              "When user clicks the login button",
-              "And clicks the forgot password link",
-              "Then new pop up will appears saying Send me a new password to my email address:",
-              "And Cancel button appears",
-              "And Continue button appears"
-            ]
-          },
-          {
-            "title": "Empty E-mail field  in  Sign in form",
-            "meta": {
-              "properties": []
-            },
-            "givenStories": {
-              "givenStories": [],
-              "givenStoriesAsString": "",
-              "examplesTable": {
-                "tableAsString": "",
-                "headerSeparator": "|",
-                "valueSeparator": "|",
-                "ignorableSeparator": "|--",
-                "tableTransformers": {
-                  "transformers": [
-                    [
-                      "FORMATTING",
-                      {}
-                    ],
-                    [
-                      "REPLACING",
-                      {}
-                    ],
-                    [
-                      "FROM_LANDSCAPE",
-                      {}
-                    ]
+              "data": [
+                [
+                  [
+                    "<data>",
+                    "huawei p8 lite"
                   ]
-                },
-                "headers": [],
-                "data": [],
-                "properties": [
-                  {
-                    "@name": "headerSeparator",
-                    "@value": "|"
-                  },
-                  {
-                    "@name": "valueSeparator",
-                    "@value": "|"
-                  },
-                  {
-                    "@name": "ignorableSeparator",
-                    "@value": "|--"
-                  }
                 ],
-                "propertiesAsString": "",
-                "namedParameters": [],
-                "trim": true
-              }
-            },
-            "examplesTable": {
-              "tableAsString": "",
-              "headerSeparator": "|",
-              "valueSeparator": "|",
-              "ignorableSeparator": "|--",
-              "tableTransformers": {
-                "transformers": [
+                [
                   [
-                    "FORMATTING",
-                    {}
-                  ],
+                    "<data>",
+                    "iphone 6s"
+                  ]
+                ],
+                [
                   [
-                    "REPLACING",
-                    {}
-                  ],
-                  [
-                    "FROM_LANDSCAPE",
-                    {}
+                    "<data>",
+                    "rozetka"
                   ]
                 ]
-              },
-              "headers": [],
-              "data": [],
+              ],
               "properties": [
                 {
                   "@name": "headerSeparator",
@@ -261,19 +182,16 @@
               "trim": true
             },
             "steps": [
-              "Given the user accesses the conference management home page",
-              "When user clicks the Your Account button",
-              "And clicks the Forgot password link",
-              "Then new pop up will appear",
-              "And then click Continue button leaving E-mail field behind"
+              "Given the unsigned user accesses the google home page",
+              "When user searches some data:\r\n|data|\r\n|<data>|"
             ]
           }
         ],
-        "name": "ForgotPw.story"
+        "name": "Google.story"
       },
       "localizedNarrative": "As a \nI want to \nSo that ",
       "allowed": true,
-      "status": "PENDING",
+      "status": "SUCCESSFUL",
       "givenStories": [],
       "scenarios": [
         {
@@ -328,7 +246,7 @@
               }
             },
             "examplesTable": {
-              "tableAsString": "",
+              "tableAsString": "|<data>|\r\n|huawei p8 lite|\r\n|iphone 6s|\r\n|rozetka|",
               "headerSeparator": "|",
               "valueSeparator": "|",
               "ignorableSeparator": "|--",
@@ -348,8 +266,29 @@
                   ]
                 ]
               },
-              "headers": [],
-              "data": [],
+              "headers": [
+                "<data>"
+              ],
+              "data": [
+                [
+                  [
+                    "<data>",
+                    "huawei p8 lite"
+                  ]
+                ],
+                [
+                  [
+                    "<data>",
+                    "iphone 6s"
+                  ]
+                ],
+                [
+                  [
+                    "<data>",
+                    "rozetka"
+                  ]
+                ]
+              ],
               "properties": [
                 {
                   "@name": "headerSeparator",
@@ -369,259 +308,103 @@
               "trim": true
             },
             "steps": [
-              "Given the unsigned user accesses the conference management home page",
-              "When user clicks the login button",
-              "And clicks the forgot password link",
-              "Then new pop up will appears saying Send me a new password to my email address:",
-              "And Cancel button appears",
-              "And Continue button appears"
+              "Given the unsigned user accesses the google home page",
+              "When user searches some data:\r\n|data|\r\n|<data>|"
             ]
           },
-          "storyPath": "stories/ForgotPw.story",
+          "storyPath": "stories/Google.story",
           "allowed": true,
-          "normalPerformableScenario": {
-            "parameters": [],
-            "givenStories": [],
-            "beforeSteps": {
-              "matches": []
-            },
-            "steps": {
-              "matches": [],
-              "results": [
-                {
-                  "step": "Given the unsigned user accesses the conference management home page",
-                  "type": "PENDING",
-                  "throwable": {
-                    "@class": "org.jbehave.core.failures.PendingStepFound",
-                    "detailMessage": "Given the unsigned user accesses the conference management home page",
-                    "stackTrace": [
-                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                      "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
-                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:745)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "uuid": "58cfd800-e897-4cb6-b350-5f028a6b1297"
+          "examplePerformableScenarios": [
+            {
+              "parameters": [
+                [
+                  "<data>",
+                  "huawei p8 lite"
+                ]
+              ],
+              "givenStories": [],
+              "beforeSteps": {
+                "matches": []
+              },
+              "steps": {
+                "matches": [],
+                "results": [
+                  {
+                    "step": "Given the unsigned user accesses the google home page",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "Given the unsigned user accesses the google home page",
+                    "durationInMillis": 7998,
+                    "start": 1498212031896,
+                    "end": 1498212039894
                   },
-                  "durationInMillis": 0,
-                  "start": 0,
-                  "end": 0
-                },
-                {
-                  "step": "When user clicks the login button",
-                  "type": "PENDING",
-                  "throwable": {
-                    "@class": "org.jbehave.core.failures.PendingStepFound",
-                    "detailMessage": "When user clicks the login button",
-                    "stackTrace": [
-                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                      "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                      "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:745)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "uuid": "e4d9d94c-324b-4f4a-bd3f-e1c6a5960841"
-                  },
-                  "durationInMillis": 0,
-                  "start": 0,
-                  "end": 0
-                },
-                {
-                  "step": "And clicks the forgot password link",
-                  "type": "PENDING",
-                  "throwable": {
-                    "@class": "org.jbehave.core.failures.PendingStepFound",
-                    "detailMessage": "And clicks the forgot password link",
-                    "stackTrace": [
-                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                      "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                      "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:745)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "uuid": "97a635c4-94fa-4aa5-9877-c55ce311582d"
-                  },
-                  "durationInMillis": 0,
-                  "start": 0,
-                  "end": 0
-                },
-                {
-                  "step": "Then new pop up will appears saying Send me a new password to my email address:",
-                  "type": "PENDING",
-                  "throwable": {
-                    "@class": "org.jbehave.core.failures.PendingStepFound",
-                    "detailMessage": "Then new pop up will appears saying Send me a new password to my email address:",
-                    "stackTrace": [
-                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                      "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                      "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:745)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "uuid": "04426cf3-4783-4faf-8f5f-be1b9d5931ae"
-                  },
-                  "durationInMillis": 0,
-                  "start": 0,
-                  "end": 0
-                },
-                {
-                  "step": "And Cancel button appears",
-                  "type": "PENDING",
-                  "throwable": {
-                    "@class": "org.jbehave.core.failures.PendingStepFound",
-                    "detailMessage": "And Cancel button appears",
-                    "stackTrace": [
-                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                      "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                      "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:745)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "uuid": "ce81b209-2ebb-4583-b97c-96ac7b40d612"
-                  },
-                  "durationInMillis": 0,
-                  "start": 0,
-                  "end": 0
-                },
-                {
-                  "step": "And Continue button appears",
-                  "type": "PENDING",
-                  "throwable": {
-                    "@class": "org.jbehave.core.failures.PendingStepFound",
-                    "detailMessage": "And Continue button appears",
-                    "stackTrace": [
-                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                      "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                      "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:745)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "uuid": "cde8ea16-bbb2-424d-a22f-ad29de9051b9"
-                  },
-                  "durationInMillis": 0,
-                  "start": 0,
-                  "end": 0
-                }
-              ]
-            },
-            "afterSteps": {
-              "matches": []
-            },
-            "storyAndScenarioMeta": {
-              "properties": []
-            },
-            "scenario": {
-              "title": "forgtot pasword pop up",
-              "meta": {
+                  {
+                    "step": "When user searches some data:\r\n|data|\r\n|<data>|",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "When user searches some data:\r\n［|data|\r\n|<data>|］",
+                    "durationInMillis": 2003,
+                    "start": 1498212041501,
+                    "end": 1498212043504
+                  }
+                ]
+              },
+              "afterSteps": {
+                "matches": []
+              },
+              "storyAndScenarioMeta": {
                 "properties": []
               },
-              "givenStories": {
-                "givenStories": [],
-                "givenStoriesAsString": "",
+              "scenario": {
+                "title": "forgtot pasword pop up",
+                "meta": {
+                  "properties": []
+                },
+                "givenStories": {
+                  "givenStories": [],
+                  "givenStoriesAsString": "",
+                  "examplesTable": {
+                    "tableAsString": "",
+                    "headerSeparator": "|",
+                    "valueSeparator": "|",
+                    "ignorableSeparator": "|--",
+                    "tableTransformers": {
+                      "transformers": [
+                        [
+                          "FORMATTING",
+                          {}
+                        ],
+                        [
+                          "REPLACING",
+                          {}
+                        ],
+                        [
+                          "FROM_LANDSCAPE",
+                          {}
+                        ]
+                      ]
+                    },
+                    "headers": [],
+                    "data": [],
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ],
+                    "propertiesAsString": "",
+                    "namedParameters": [],
+                    "trim": true
+                  }
+                },
                 "examplesTable": {
-                  "tableAsString": "",
+                  "tableAsString": "|<data>|\r\n|huawei p8 lite|\r\n|iphone 6s|\r\n|rozetka|",
                   "headerSeparator": "|",
                   "valueSeparator": "|",
                   "ignorableSeparator": "|--",
@@ -641,8 +424,29 @@
                       ]
                     ]
                   },
-                  "headers": [],
-                  "data": [],
+                  "headers": [
+                    "<data>"
+                  ],
+                  "data": [
+                    [
+                      [
+                        "<data>",
+                        "huawei p8 lite"
+                      ]
+                    ],
+                    [
+                      [
+                        "<data>",
+                        "iphone 6s"
+                      ]
+                    ],
+                    [
+                      [
+                        "<data>",
+                        "rozetka"
+                      ]
+                    ]
+                  ],
                   "properties": [
                     {
                       "@name": "headerSeparator",
@@ -660,371 +464,103 @@
                   "propertiesAsString": "",
                   "namedParameters": [],
                   "trim": true
-                }
-              },
-              "examplesTable": {
-                "tableAsString": "",
-                "headerSeparator": "|",
-                "valueSeparator": "|",
-                "ignorableSeparator": "|--",
-                "tableTransformers": {
-                  "transformers": [
-                    [
-                      "FORMATTING",
-                      {}
-                    ],
-                    [
-                      "REPLACING",
-                      {}
-                    ],
-                    [
-                      "FROM_LANDSCAPE",
-                      {}
-                    ]
-                  ]
                 },
-                "headers": [],
-                "data": [],
-                "properties": [
-                  {
-                    "@name": "headerSeparator",
-                    "@value": "|"
-                  },
-                  {
-                    "@name": "valueSeparator",
-                    "@value": "|"
-                  },
-                  {
-                    "@name": "ignorableSeparator",
-                    "@value": "|--"
-                  }
-                ],
-                "propertiesAsString": "",
-                "namedParameters": [],
-                "trim": true
-              },
-              "steps": [
-                "Given the unsigned user accesses the conference management home page",
-                "When user clicks the login button",
-                "And clicks the forgot password link",
-                "Then new pop up will appears saying Send me a new password to my email address:",
-                "And Cancel button appears",
-                "And Continue button appears"
-              ]
-            }
-          },
-          "examplePerformableScenarios": [],
-          "status": "PENDING"
-        },
-        {
-          "scenario": {
-            "title": "Empty E-mail field  in  Sign in form",
-            "meta": {
-              "properties": []
-            },
-            "givenStories": {
-              "givenStories": [],
-              "givenStoriesAsString": "",
-              "examplesTable": {
-                "tableAsString": "",
-                "headerSeparator": "|",
-                "valueSeparator": "|",
-                "ignorableSeparator": "|--",
-                "tableTransformers": {
-                  "transformers": [
-                    [
-                      "FORMATTING",
-                      {}
-                    ],
-                    [
-                      "REPLACING",
-                      {}
-                    ],
-                    [
-                      "FROM_LANDSCAPE",
-                      {}
-                    ]
-                  ]
-                },
-                "headers": [],
-                "data": [],
-                "properties": [
-                  {
-                    "@name": "headerSeparator",
-                    "@value": "|"
-                  },
-                  {
-                    "@name": "valueSeparator",
-                    "@value": "|"
-                  },
-                  {
-                    "@name": "ignorableSeparator",
-                    "@value": "|--"
-                  }
-                ],
-                "propertiesAsString": "",
-                "namedParameters": [],
-                "trim": true
+                "steps": [
+                  "Given the unsigned user accesses the google home page",
+                  "When user searches some data:\r\n|data|\r\n|<data>|"
+                ]
               }
             },
-            "examplesTable": {
-              "tableAsString": "",
-              "headerSeparator": "|",
-              "valueSeparator": "|",
-              "ignorableSeparator": "|--",
-              "tableTransformers": {
-                "transformers": [
-                  [
-                    "FORMATTING",
-                    {}
-                  ],
-                  [
-                    "REPLACING",
-                    {}
-                  ],
-                  [
-                    "FROM_LANDSCAPE",
-                    {}
-                  ]
+            {
+              "parameters": [
+                [
+                  "<data>",
+                  "iphone 6s"
+                ]
+              ],
+              "givenStories": [],
+              "beforeSteps": {
+                "matches": []
+              },
+              "steps": {
+                "matches": [],
+                "results": [
+                  {
+                    "step": "Given the unsigned user accesses the google home page",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "Given the unsigned user accesses the google home page",
+                    "durationInMillis": 6750,
+                    "start": 1498212044243,
+                    "end": 1498212050993
+                  },
+                  {
+                    "step": "When user searches some data:\r\n|data|\r\n|<data>|",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "When user searches some data:\r\n［|data|\r\n|<data>|］",
+                    "durationInMillis": 1787,
+                    "start": 1498212052108,
+                    "end": 1498212053895
+                  }
                 ]
               },
-              "headers": [],
-              "data": [],
-              "properties": [
-                {
-                  "@name": "headerSeparator",
-                  "@value": "|"
-                },
-                {
-                  "@name": "valueSeparator",
-                  "@value": "|"
-                },
-                {
-                  "@name": "ignorableSeparator",
-                  "@value": "|--"
-                }
-              ],
-              "propertiesAsString": "",
-              "namedParameters": [],
-              "trim": true
-            },
-            "steps": [
-              "Given the user accesses the conference management home page",
-              "When user clicks the Your Account button",
-              "And clicks the Forgot password link",
-              "Then new pop up will appear",
-              "And then click Continue button leaving E-mail field behind"
-            ]
-          },
-          "storyPath": "stories/ForgotPw.story",
-          "allowed": true,
-          "normalPerformableScenario": {
-            "parameters": [],
-            "givenStories": [],
-            "beforeSteps": {
-              "matches": []
-            },
-            "steps": {
-              "matches": [],
-              "results": [
-                {
-                  "step": "Given the user accesses the conference management home page",
-                  "type": "PENDING",
-                  "throwable": {
-                    "@class": "org.jbehave.core.failures.PendingStepFound",
-                    "detailMessage": "Given the user accesses the conference management home page",
-                    "stackTrace": [
-                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                      "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
-                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:745)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "uuid": "bc9d5ff7-d5e8-4ab8-afef-a7c4d5bc7437"
-                  },
-                  "durationInMillis": 0,
-                  "start": 0,
-                  "end": 0
-                },
-                {
-                  "step": "When user clicks the Your Account button",
-                  "type": "PENDING",
-                  "throwable": {
-                    "@class": "org.jbehave.core.failures.PendingStepFound",
-                    "detailMessage": "When user clicks the Your Account button",
-                    "stackTrace": [
-                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                      "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                      "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:745)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "uuid": "d3830269-816f-41d5-ad63-001a5dd75500"
-                  },
-                  "durationInMillis": 0,
-                  "start": 0,
-                  "end": 0
-                },
-                {
-                  "step": "And clicks the Forgot password link",
-                  "type": "PENDING",
-                  "throwable": {
-                    "@class": "org.jbehave.core.failures.PendingStepFound",
-                    "detailMessage": "And clicks the Forgot password link",
-                    "stackTrace": [
-                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                      "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                      "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:745)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "uuid": "31342ef5-e14f-4b71-adcb-af2f684111ed"
-                  },
-                  "durationInMillis": 0,
-                  "start": 0,
-                  "end": 0
-                },
-                {
-                  "step": "Then new pop up will appear",
-                  "type": "PENDING",
-                  "throwable": {
-                    "@class": "org.jbehave.core.failures.PendingStepFound",
-                    "detailMessage": "Then new pop up will appear",
-                    "stackTrace": [
-                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                      "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                      "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:745)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "uuid": "45afcafb-01d0-446c-a7bf-1a6d765205e2"
-                  },
-                  "durationInMillis": 0,
-                  "start": 0,
-                  "end": 0
-                },
-                {
-                  "step": "And then click Continue button leaving E-mail field behind",
-                  "type": "PENDING",
-                  "throwable": {
-                    "@class": "org.jbehave.core.failures.PendingStepFound",
-                    "detailMessage": "And then click Continue button leaving E-mail field behind",
-                    "stackTrace": [
-                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                      "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                      "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                      "java.lang.Thread.run(Thread.java:745)"
-                    ],
-                    "suppressedExceptions": [
-                      [],
-                      []
-                    ],
-                    "uuid": "da25df29-7c04-42a4-b796-0ac557066c3a"
-                  },
-                  "durationInMillis": 0,
-                  "start": 0,
-                  "end": 0
-                }
-              ]
-            },
-            "afterSteps": {
-              "matches": []
-            },
-            "storyAndScenarioMeta": {
-              "properties": []
-            },
-            "scenario": {
-              "title": "Empty E-mail field  in  Sign in form",
-              "meta": {
+              "afterSteps": {
+                "matches": []
+              },
+              "storyAndScenarioMeta": {
                 "properties": []
               },
-              "givenStories": {
-                "givenStories": [],
-                "givenStoriesAsString": "",
+              "scenario": {
+                "title": "forgtot pasword pop up",
+                "meta": {
+                  "properties": []
+                },
+                "givenStories": {
+                  "givenStories": [],
+                  "givenStoriesAsString": "",
+                  "examplesTable": {
+                    "tableAsString": "",
+                    "headerSeparator": "|",
+                    "valueSeparator": "|",
+                    "ignorableSeparator": "|--",
+                    "tableTransformers": {
+                      "transformers": [
+                        [
+                          "FORMATTING",
+                          {}
+                        ],
+                        [
+                          "REPLACING",
+                          {}
+                        ],
+                        [
+                          "FROM_LANDSCAPE",
+                          {}
+                        ]
+                      ]
+                    },
+                    "headers": [],
+                    "data": [],
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ],
+                    "propertiesAsString": "",
+                    "namedParameters": [],
+                    "trim": true
+                  }
+                },
                 "examplesTable": {
-                  "tableAsString": "",
+                  "tableAsString": "|<data>|\r\n|huawei p8 lite|\r\n|iphone 6s|\r\n|rozetka|",
                   "headerSeparator": "|",
                   "valueSeparator": "|",
                   "ignorableSeparator": "|--",
@@ -1044,8 +580,29 @@
                       ]
                     ]
                   },
-                  "headers": [],
-                  "data": [],
+                  "headers": [
+                    "<data>"
+                  ],
+                  "data": [
+                    [
+                      [
+                        "<data>",
+                        "huawei p8 lite"
+                      ]
+                    ],
+                    [
+                      [
+                        "<data>",
+                        "iphone 6s"
+                      ]
+                    ],
+                    [
+                      [
+                        "<data>",
+                        "rozetka"
+                      ]
+                    ]
+                  ],
                   "properties": [
                     {
                       "@name": "headerSeparator",
@@ -1063,68 +620,179 @@
                   "propertiesAsString": "",
                   "namedParameters": [],
                   "trim": true
-                }
-              },
-              "examplesTable": {
-                "tableAsString": "",
-                "headerSeparator": "|",
-                "valueSeparator": "|",
-                "ignorableSeparator": "|--",
-                "tableTransformers": {
-                  "transformers": [
-                    [
-                      "FORMATTING",
-                      {}
-                    ],
-                    [
-                      "REPLACING",
-                      {}
-                    ],
-                    [
-                      "FROM_LANDSCAPE",
-                      {}
-                    ]
-                  ]
                 },
-                "headers": [],
-                "data": [],
-                "properties": [
-                  {
-                    "@name": "headerSeparator",
-                    "@value": "|"
-                  },
-                  {
-                    "@name": "valueSeparator",
-                    "@value": "|"
-                  },
-                  {
-                    "@name": "ignorableSeparator",
-                    "@value": "|--"
-                  }
-                ],
-                "propertiesAsString": "",
-                "namedParameters": [],
-                "trim": true
+                "steps": [
+                  "Given the unsigned user accesses the google home page",
+                  "When user searches some data:\r\n|data|\r\n|<data>|"
+                ]
+              }
+            },
+            {
+              "parameters": [
+                [
+                  "<data>",
+                  "rozetka"
+                ]
+              ],
+              "givenStories": [],
+              "beforeSteps": {
+                "matches": []
               },
-              "steps": [
-                "Given the user accesses the conference management home page",
-                "When user clicks the Your Account button",
-                "And clicks the Forgot password link",
-                "Then new pop up will appear",
-                "And then click Continue button leaving E-mail field behind"
-              ]
+              "steps": {
+                "matches": [],
+                "results": [
+                  {
+                    "step": "Given the unsigned user accesses the google home page",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "Given the unsigned user accesses the google home page",
+                    "durationInMillis": 6567,
+                    "start": 1498212054861,
+                    "end": 1498212061428
+                  },
+                  {
+                    "step": "When user searches some data:\r\n|data|\r\n|<data>|",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "When user searches some data:\r\n［|data|\r\n|<data>|］",
+                    "durationInMillis": 1670,
+                    "start": 1498212062752,
+                    "end": 1498212064422
+                  }
+                ]
+              },
+              "afterSteps": {
+                "matches": []
+              },
+              "storyAndScenarioMeta": {
+                "properties": []
+              },
+              "scenario": {
+                "title": "forgtot pasword pop up",
+                "meta": {
+                  "properties": []
+                },
+                "givenStories": {
+                  "givenStories": [],
+                  "givenStoriesAsString": "",
+                  "examplesTable": {
+                    "tableAsString": "",
+                    "headerSeparator": "|",
+                    "valueSeparator": "|",
+                    "ignorableSeparator": "|--",
+                    "tableTransformers": {
+                      "transformers": [
+                        [
+                          "FORMATTING",
+                          {}
+                        ],
+                        [
+                          "REPLACING",
+                          {}
+                        ],
+                        [
+                          "FROM_LANDSCAPE",
+                          {}
+                        ]
+                      ]
+                    },
+                    "headers": [],
+                    "data": [],
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ],
+                    "propertiesAsString": "",
+                    "namedParameters": [],
+                    "trim": true
+                  }
+                },
+                "examplesTable": {
+                  "tableAsString": "|<data>|\r\n|huawei p8 lite|\r\n|iphone 6s|\r\n|rozetka|",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [
+                    "<data>"
+                  ],
+                  "data": [
+                    [
+                      [
+                        "<data>",
+                        "huawei p8 lite"
+                      ]
+                    ],
+                    [
+                      [
+                        "<data>",
+                        "iphone 6s"
+                      ]
+                    ],
+                    [
+                      [
+                        "<data>",
+                        "rozetka"
+                      ]
+                    ]
+                  ],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                },
+                "steps": [
+                  "Given the unsigned user accesses the google home page",
+                  "When user searches some data:\r\n|data|\r\n|<data>|"
+                ]
+              }
             }
-          },
-          "examplePerformableScenarios": [],
-          "status": "PENDING"
+          ],
+          "status": "SUCCESSFUL"
         }
       ],
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 728,
-        "start": 1498209392663,
-        "end": 1498209393391
+        "durationInMillis": 34158,
+        "start": 1498212031611,
+        "end": 1498212065769
       },
       "givenStory": false
     }
@@ -1182,7 +850,7 @@
           }
         },
         "examplesTable": {
-          "tableAsString": "",
+          "tableAsString": "|<data>|\r\n|huawei p8 lite|\r\n|iphone 6s|\r\n|rozetka|",
           "headerSeparator": "|",
           "valueSeparator": "|",
           "ignorableSeparator": "|--",
@@ -1202,8 +870,29 @@
               ]
             ]
           },
-          "headers": [],
-          "data": [],
+          "headers": [
+            "<data>"
+          ],
+          "data": [
+            [
+              [
+                "<data>",
+                "huawei p8 lite"
+              ]
+            ],
+            [
+              [
+                "<data>",
+                "iphone 6s"
+              ]
+            ],
+            [
+              [
+                "<data>",
+                "rozetka"
+              ]
+            ]
+          ],
           "properties": [
             {
               "@name": "headerSeparator",
@@ -1223,259 +912,103 @@
           "trim": true
         },
         "steps": [
-          "Given the unsigned user accesses the conference management home page",
-          "When user clicks the login button",
-          "And clicks the forgot password link",
-          "Then new pop up will appears saying Send me a new password to my email address:",
-          "And Cancel button appears",
-          "And Continue button appears"
+          "Given the unsigned user accesses the google home page",
+          "When user searches some data:\r\n|data|\r\n|<data>|"
         ]
       },
-      "storyPath": "stories/ForgotPw.story",
+      "storyPath": "stories/Google.story",
       "allowed": true,
-      "normalPerformableScenario": {
-        "parameters": [],
-        "givenStories": [],
-        "beforeSteps": {
-          "matches": []
-        },
-        "steps": {
-          "matches": [],
-          "results": [
-            {
-              "step": "Given the unsigned user accesses the conference management home page",
-              "type": "PENDING",
-              "throwable": {
-                "@class": "org.jbehave.core.failures.PendingStepFound",
-                "detailMessage": "Given the unsigned user accesses the conference management home page",
-                "stackTrace": [
-                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                  "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
-                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                  "java.lang.Thread.run(Thread.java:745)"
-                ],
-                "suppressedExceptions": [
-                  [],
-                  []
-                ],
-                "uuid": "58cfd800-e897-4cb6-b350-5f028a6b1297"
+      "examplePerformableScenarios": [
+        {
+          "parameters": [
+            [
+              "<data>",
+              "huawei p8 lite"
+            ]
+          ],
+          "givenStories": [],
+          "beforeSteps": {
+            "matches": []
+          },
+          "steps": {
+            "matches": [],
+            "results": [
+              {
+                "step": "Given the unsigned user accesses the google home page",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "Given the unsigned user accesses the google home page",
+                "durationInMillis": 7998,
+                "start": 1498212031896,
+                "end": 1498212039894
               },
-              "durationInMillis": 0,
-              "start": 0,
-              "end": 0
-            },
-            {
-              "step": "When user clicks the login button",
-              "type": "PENDING",
-              "throwable": {
-                "@class": "org.jbehave.core.failures.PendingStepFound",
-                "detailMessage": "When user clicks the login button",
-                "stackTrace": [
-                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                  "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                  "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                  "java.lang.Thread.run(Thread.java:745)"
-                ],
-                "suppressedExceptions": [
-                  [],
-                  []
-                ],
-                "uuid": "e4d9d94c-324b-4f4a-bd3f-e1c6a5960841"
-              },
-              "durationInMillis": 0,
-              "start": 0,
-              "end": 0
-            },
-            {
-              "step": "And clicks the forgot password link",
-              "type": "PENDING",
-              "throwable": {
-                "@class": "org.jbehave.core.failures.PendingStepFound",
-                "detailMessage": "And clicks the forgot password link",
-                "stackTrace": [
-                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                  "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                  "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                  "java.lang.Thread.run(Thread.java:745)"
-                ],
-                "suppressedExceptions": [
-                  [],
-                  []
-                ],
-                "uuid": "97a635c4-94fa-4aa5-9877-c55ce311582d"
-              },
-              "durationInMillis": 0,
-              "start": 0,
-              "end": 0
-            },
-            {
-              "step": "Then new pop up will appears saying Send me a new password to my email address:",
-              "type": "PENDING",
-              "throwable": {
-                "@class": "org.jbehave.core.failures.PendingStepFound",
-                "detailMessage": "Then new pop up will appears saying Send me a new password to my email address:",
-                "stackTrace": [
-                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                  "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                  "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                  "java.lang.Thread.run(Thread.java:745)"
-                ],
-                "suppressedExceptions": [
-                  [],
-                  []
-                ],
-                "uuid": "04426cf3-4783-4faf-8f5f-be1b9d5931ae"
-              },
-              "durationInMillis": 0,
-              "start": 0,
-              "end": 0
-            },
-            {
-              "step": "And Cancel button appears",
-              "type": "PENDING",
-              "throwable": {
-                "@class": "org.jbehave.core.failures.PendingStepFound",
-                "detailMessage": "And Cancel button appears",
-                "stackTrace": [
-                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                  "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                  "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                  "java.lang.Thread.run(Thread.java:745)"
-                ],
-                "suppressedExceptions": [
-                  [],
-                  []
-                ],
-                "uuid": "ce81b209-2ebb-4583-b97c-96ac7b40d612"
-              },
-              "durationInMillis": 0,
-              "start": 0,
-              "end": 0
-            },
-            {
-              "step": "And Continue button appears",
-              "type": "PENDING",
-              "throwable": {
-                "@class": "org.jbehave.core.failures.PendingStepFound",
-                "detailMessage": "And Continue button appears",
-                "stackTrace": [
-                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                  "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                  "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                  "java.lang.Thread.run(Thread.java:745)"
-                ],
-                "suppressedExceptions": [
-                  [],
-                  []
-                ],
-                "uuid": "cde8ea16-bbb2-424d-a22f-ad29de9051b9"
-              },
-              "durationInMillis": 0,
-              "start": 0,
-              "end": 0
-            }
-          ]
-        },
-        "afterSteps": {
-          "matches": []
-        },
-        "storyAndScenarioMeta": {
-          "properties": []
-        },
-        "scenario": {
-          "title": "forgtot pasword pop up",
-          "meta": {
+              {
+                "step": "When user searches some data:\r\n|data|\r\n|<data>|",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "When user searches some data:\r\n［|data|\r\n|<data>|］",
+                "durationInMillis": 2003,
+                "start": 1498212041501,
+                "end": 1498212043504
+              }
+            ]
+          },
+          "afterSteps": {
+            "matches": []
+          },
+          "storyAndScenarioMeta": {
             "properties": []
           },
-          "givenStories": {
-            "givenStories": [],
-            "givenStoriesAsString": "",
+          "scenario": {
+            "title": "forgtot pasword pop up",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
             "examplesTable": {
-              "tableAsString": "",
+              "tableAsString": "|<data>|\r\n|huawei p8 lite|\r\n|iphone 6s|\r\n|rozetka|",
               "headerSeparator": "|",
               "valueSeparator": "|",
               "ignorableSeparator": "|--",
@@ -1495,8 +1028,29 @@
                   ]
                 ]
               },
-              "headers": [],
-              "data": [],
+              "headers": [
+                "<data>"
+              ],
+              "data": [
+                [
+                  [
+                    "<data>",
+                    "huawei p8 lite"
+                  ]
+                ],
+                [
+                  [
+                    "<data>",
+                    "iphone 6s"
+                  ]
+                ],
+                [
+                  [
+                    "<data>",
+                    "rozetka"
+                  ]
+                ]
+              ],
               "properties": [
                 {
                   "@name": "headerSeparator",
@@ -1514,371 +1068,103 @@
               "propertiesAsString": "",
               "namedParameters": [],
               "trim": true
-            }
-          },
-          "examplesTable": {
-            "tableAsString": "",
-            "headerSeparator": "|",
-            "valueSeparator": "|",
-            "ignorableSeparator": "|--",
-            "tableTransformers": {
-              "transformers": [
-                [
-                  "FORMATTING",
-                  {}
-                ],
-                [
-                  "REPLACING",
-                  {}
-                ],
-                [
-                  "FROM_LANDSCAPE",
-                  {}
-                ]
-              ]
             },
-            "headers": [],
-            "data": [],
-            "properties": [
-              {
-                "@name": "headerSeparator",
-                "@value": "|"
-              },
-              {
-                "@name": "valueSeparator",
-                "@value": "|"
-              },
-              {
-                "@name": "ignorableSeparator",
-                "@value": "|--"
-              }
-            ],
-            "propertiesAsString": "",
-            "namedParameters": [],
-            "trim": true
-          },
-          "steps": [
-            "Given the unsigned user accesses the conference management home page",
-            "When user clicks the login button",
-            "And clicks the forgot password link",
-            "Then new pop up will appears saying Send me a new password to my email address:",
-            "And Cancel button appears",
-            "And Continue button appears"
-          ]
-        }
-      },
-      "examplePerformableScenarios": [],
-      "status": "PENDING"
-    },
-    {
-      "scenario": {
-        "title": "Empty E-mail field  in  Sign in form",
-        "meta": {
-          "properties": []
-        },
-        "givenStories": {
-          "givenStories": [],
-          "givenStoriesAsString": "",
-          "examplesTable": {
-            "tableAsString": "",
-            "headerSeparator": "|",
-            "valueSeparator": "|",
-            "ignorableSeparator": "|--",
-            "tableTransformers": {
-              "transformers": [
-                [
-                  "FORMATTING",
-                  {}
-                ],
-                [
-                  "REPLACING",
-                  {}
-                ],
-                [
-                  "FROM_LANDSCAPE",
-                  {}
-                ]
-              ]
-            },
-            "headers": [],
-            "data": [],
-            "properties": [
-              {
-                "@name": "headerSeparator",
-                "@value": "|"
-              },
-              {
-                "@name": "valueSeparator",
-                "@value": "|"
-              },
-              {
-                "@name": "ignorableSeparator",
-                "@value": "|--"
-              }
-            ],
-            "propertiesAsString": "",
-            "namedParameters": [],
-            "trim": true
+            "steps": [
+              "Given the unsigned user accesses the google home page",
+              "When user searches some data:\r\n|data|\r\n|<data>|"
+            ]
           }
         },
-        "examplesTable": {
-          "tableAsString": "",
-          "headerSeparator": "|",
-          "valueSeparator": "|",
-          "ignorableSeparator": "|--",
-          "tableTransformers": {
-            "transformers": [
-              [
-                "FORMATTING",
-                {}
-              ],
-              [
-                "REPLACING",
-                {}
-              ],
-              [
-                "FROM_LANDSCAPE",
-                {}
-              ]
+        {
+          "parameters": [
+            [
+              "<data>",
+              "iphone 6s"
+            ]
+          ],
+          "givenStories": [],
+          "beforeSteps": {
+            "matches": []
+          },
+          "steps": {
+            "matches": [],
+            "results": [
+              {
+                "step": "Given the unsigned user accesses the google home page",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "Given the unsigned user accesses the google home page",
+                "durationInMillis": 6750,
+                "start": 1498212044243,
+                "end": 1498212050993
+              },
+              {
+                "step": "When user searches some data:\r\n|data|\r\n|<data>|",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "When user searches some data:\r\n［|data|\r\n|<data>|］",
+                "durationInMillis": 1787,
+                "start": 1498212052108,
+                "end": 1498212053895
+              }
             ]
           },
-          "headers": [],
-          "data": [],
-          "properties": [
-            {
-              "@name": "headerSeparator",
-              "@value": "|"
-            },
-            {
-              "@name": "valueSeparator",
-              "@value": "|"
-            },
-            {
-              "@name": "ignorableSeparator",
-              "@value": "|--"
-            }
-          ],
-          "propertiesAsString": "",
-          "namedParameters": [],
-          "trim": true
-        },
-        "steps": [
-          "Given the user accesses the conference management home page",
-          "When user clicks the Your Account button",
-          "And clicks the Forgot password link",
-          "Then new pop up will appear",
-          "And then click Continue button leaving E-mail field behind"
-        ]
-      },
-      "storyPath": "stories/ForgotPw.story",
-      "allowed": true,
-      "normalPerformableScenario": {
-        "parameters": [],
-        "givenStories": [],
-        "beforeSteps": {
-          "matches": []
-        },
-        "steps": {
-          "matches": [],
-          "results": [
-            {
-              "step": "Given the user accesses the conference management home page",
-              "type": "PENDING",
-              "throwable": {
-                "@class": "org.jbehave.core.failures.PendingStepFound",
-                "detailMessage": "Given the user accesses the conference management home page",
-                "stackTrace": [
-                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                  "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
-                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                  "java.lang.Thread.run(Thread.java:745)"
-                ],
-                "suppressedExceptions": [
-                  [],
-                  []
-                ],
-                "uuid": "bc9d5ff7-d5e8-4ab8-afef-a7c4d5bc7437"
-              },
-              "durationInMillis": 0,
-              "start": 0,
-              "end": 0
-            },
-            {
-              "step": "When user clicks the Your Account button",
-              "type": "PENDING",
-              "throwable": {
-                "@class": "org.jbehave.core.failures.PendingStepFound",
-                "detailMessage": "When user clicks the Your Account button",
-                "stackTrace": [
-                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                  "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                  "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                  "java.lang.Thread.run(Thread.java:745)"
-                ],
-                "suppressedExceptions": [
-                  [],
-                  []
-                ],
-                "uuid": "d3830269-816f-41d5-ad63-001a5dd75500"
-              },
-              "durationInMillis": 0,
-              "start": 0,
-              "end": 0
-            },
-            {
-              "step": "And clicks the Forgot password link",
-              "type": "PENDING",
-              "throwable": {
-                "@class": "org.jbehave.core.failures.PendingStepFound",
-                "detailMessage": "And clicks the Forgot password link",
-                "stackTrace": [
-                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                  "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                  "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                  "java.lang.Thread.run(Thread.java:745)"
-                ],
-                "suppressedExceptions": [
-                  [],
-                  []
-                ],
-                "uuid": "31342ef5-e14f-4b71-adcb-af2f684111ed"
-              },
-              "durationInMillis": 0,
-              "start": 0,
-              "end": 0
-            },
-            {
-              "step": "Then new pop up will appear",
-              "type": "PENDING",
-              "throwable": {
-                "@class": "org.jbehave.core.failures.PendingStepFound",
-                "detailMessage": "Then new pop up will appear",
-                "stackTrace": [
-                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                  "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                  "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                  "java.lang.Thread.run(Thread.java:745)"
-                ],
-                "suppressedExceptions": [
-                  [],
-                  []
-                ],
-                "uuid": "45afcafb-01d0-446c-a7bf-1a6d765205e2"
-              },
-              "durationInMillis": 0,
-              "start": 0,
-              "end": 0
-            },
-            {
-              "step": "And then click Continue button leaving E-mail field behind",
-              "type": "PENDING",
-              "throwable": {
-                "@class": "org.jbehave.core.failures.PendingStepFound",
-                "detailMessage": "And then click Continue button leaving E-mail field behind",
-                "stackTrace": [
-                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
-                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
-                  "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
-                  "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
-                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
-                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
-                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
-                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
-                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
-                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
-                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
-                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
-                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
-                  "java.lang.Thread.run(Thread.java:745)"
-                ],
-                "suppressedExceptions": [
-                  [],
-                  []
-                ],
-                "uuid": "da25df29-7c04-42a4-b796-0ac557066c3a"
-              },
-              "durationInMillis": 0,
-              "start": 0,
-              "end": 0
-            }
-          ]
-        },
-        "afterSteps": {
-          "matches": []
-        },
-        "storyAndScenarioMeta": {
-          "properties": []
-        },
-        "scenario": {
-          "title": "Empty E-mail field  in  Sign in form",
-          "meta": {
+          "afterSteps": {
+            "matches": []
+          },
+          "storyAndScenarioMeta": {
             "properties": []
           },
-          "givenStories": {
-            "givenStories": [],
-            "givenStoriesAsString": "",
+          "scenario": {
+            "title": "forgtot pasword pop up",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
             "examplesTable": {
-              "tableAsString": "",
+              "tableAsString": "|<data>|\r\n|huawei p8 lite|\r\n|iphone 6s|\r\n|rozetka|",
               "headerSeparator": "|",
               "valueSeparator": "|",
               "ignorableSeparator": "|--",
@@ -1898,8 +1184,29 @@
                   ]
                 ]
               },
-              "headers": [],
-              "data": [],
+              "headers": [
+                "<data>"
+              ],
+              "data": [
+                [
+                  [
+                    "<data>",
+                    "huawei p8 lite"
+                  ]
+                ],
+                [
+                  [
+                    "<data>",
+                    "iphone 6s"
+                  ]
+                ],
+                [
+                  [
+                    "<data>",
+                    "rozetka"
+                  ]
+                ]
+              ],
               "properties": [
                 {
                   "@name": "headerSeparator",
@@ -1917,60 +1224,171 @@
               "propertiesAsString": "",
               "namedParameters": [],
               "trim": true
-            }
-          },
-          "examplesTable": {
-            "tableAsString": "",
-            "headerSeparator": "|",
-            "valueSeparator": "|",
-            "ignorableSeparator": "|--",
-            "tableTransformers": {
-              "transformers": [
-                [
-                  "FORMATTING",
-                  {}
-                ],
-                [
-                  "REPLACING",
-                  {}
-                ],
-                [
-                  "FROM_LANDSCAPE",
-                  {}
-                ]
-              ]
             },
-            "headers": [],
-            "data": [],
-            "properties": [
-              {
-                "@name": "headerSeparator",
-                "@value": "|"
-              },
-              {
-                "@name": "valueSeparator",
-                "@value": "|"
-              },
-              {
-                "@name": "ignorableSeparator",
-                "@value": "|--"
-              }
-            ],
-            "propertiesAsString": "",
-            "namedParameters": [],
-            "trim": true
+            "steps": [
+              "Given the unsigned user accesses the google home page",
+              "When user searches some data:\r\n|data|\r\n|<data>|"
+            ]
+          }
+        },
+        {
+          "parameters": [
+            [
+              "<data>",
+              "rozetka"
+            ]
+          ],
+          "givenStories": [],
+          "beforeSteps": {
+            "matches": []
           },
-          "steps": [
-            "Given the user accesses the conference management home page",
-            "When user clicks the Your Account button",
-            "And clicks the Forgot password link",
-            "Then new pop up will appear",
-            "And then click Continue button leaving E-mail field behind"
-          ]
+          "steps": {
+            "matches": [],
+            "results": [
+              {
+                "step": "Given the unsigned user accesses the google home page",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "Given the unsigned user accesses the google home page",
+                "durationInMillis": 6567,
+                "start": 1498212054861,
+                "end": 1498212061428
+              },
+              {
+                "step": "When user searches some data:\r\n|data|\r\n|<data>|",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "When user searches some data:\r\n［|data|\r\n|<data>|］",
+                "durationInMillis": 1670,
+                "start": 1498212062752,
+                "end": 1498212064422
+              }
+            ]
+          },
+          "afterSteps": {
+            "matches": []
+          },
+          "storyAndScenarioMeta": {
+            "properties": []
+          },
+          "scenario": {
+            "title": "forgtot pasword pop up",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|<data>|\r\n|huawei p8 lite|\r\n|iphone 6s|\r\n|rozetka|",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "<data>"
+              ],
+              "data": [
+                [
+                  [
+                    "<data>",
+                    "huawei p8 lite"
+                  ]
+                ],
+                [
+                  [
+                    "<data>",
+                    "iphone 6s"
+                  ]
+                ],
+                [
+                  [
+                    "<data>",
+                    "rozetka"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given the unsigned user accesses the google home page",
+              "When user searches some data:\r\n|data|\r\n|<data>|"
+            ]
+          }
         }
-      },
-      "examplePerformableScenarios": [],
-      "status": "PENDING"
+      ],
+      "status": "SUCCESSFUL"
     }
   ]
 }}

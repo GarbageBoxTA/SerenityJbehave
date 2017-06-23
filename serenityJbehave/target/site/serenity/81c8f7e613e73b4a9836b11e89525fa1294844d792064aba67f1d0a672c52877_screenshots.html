@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Conference management</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="32d143d867a17c0931a695f9741545ae6ed574e97c9eb3851fc5a4321f2fd74c.html"></a>
+                > <a
+                    href="81c8f7e613e73b4a9836b11e89525fa1294844d792064aba67f1d0a672c52877.html">forgtot pasword pop up </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-06-2017 13:00</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title"> </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user
+I would to have an ability to reset my password
+Once a user clicks on the Forgot Password link the new pop up will appears saying
+"Send me a new password to my email address +user's email address+ " with the Cancel and Continue button bellow
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Forgtot Pasword Pop Up
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given the unsigned user accesses the google home page<br>When user searches some data:<br><table class='embedded'><thead><th>data</th></thead><tbody><tr><td>&lt;data&gt;</td></tr></tbody></table><br></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_33ac0a91242bc70bbe99991719192674664e23c04b6d21b8120ae2282e42ea49.png" title="Given the unsigned user accesses the google home page" width="960"/>
+                <img src="scaled_6766d838f2c3534fdb43e09a6227fd37390c8cca3d48d60b26d667c4a84c5a37.png" title="When user searches some data:
+［|data|
+|&lt;data&gt;|］" width="960"/>
+                <img src="scaled_b6929f9caad36d92cf506a669cfe8d978610c00bf99d25c881050fdfaa99f5d0.png" title="When user searches some data:
+［|data|
+|&lt;data&gt;|］" width="960"/>
+                <img src="scaled_ac3d3c7627e03ad29e048053613acf3650c9ac26d51644b156fb0d7bbb6a9fc5.png" title="Do search: huawei p8 lite" width="960"/>
+                <img src="scaled_f7b106fc0c982c3ea4802e32b31d83e8d78efd376f5a2e6d782d86da6a7a03f9.png" title="Do search: huawei p8 lite" width="960"/>
+                <img src="scaled_0897b0c0f69f6ec56609ebb4ebb38156ffc657adbd41a718f2806d38bf0245b2.png" title="Given the unsigned user accesses the google home page" width="960"/>
+                <img src="scaled_1903d994ec0e600b9840616389b09052e2ce40119b3e1a89967d2cc9eadb2afa.png" title="When user searches some data:
+［|data|
+|&lt;data&gt;|］" width="960"/>
+                <img src="scaled_293b386bbf9bd07fb2416ab26ccd31de5708ba6254cd6bcfb804d7ea57e9155b.png" title="When user searches some data:
+［|data|
+|&lt;data&gt;|］" width="960"/>
+                <img src="scaled_90aee962d0c2f38ca6e73ff89fb835bf48b575b75a32ab1071b0a8a000fde7c5.png" title="Do search: iphone 6s" width="960"/>
+                <img src="scaled_25ede6a5ed2ebfe2cdbad75f43dd049203f2b3da23f1dced33352f92ea5988d7.png" title="Do search: iphone 6s" width="960"/>
+                <img src="scaled_945312beafd5ac1bdba43f10c289eed414577876831ebe4432d24c99bdd012ce.png" title="Given the unsigned user accesses the google home page" width="960"/>
+                <img src="scaled_2516189118fd6cff7bd11e45d87fc261497be3a2da42f7d145c811f79e51c51e.png" title="When user searches some data:
+［|data|
+|&lt;data&gt;|］" width="960"/>
+                <img src="scaled_56604b102366e8ef126f6920dd5bf0c9f25b1eb1ce6396df1ca463f92d30addd.png" title="When user searches some data:
+［|data|
+|&lt;data&gt;|］" width="960"/>
+                <img src="scaled_0029ad09ff378cd30aec9cd3e9586ea441b061311fbb7873665a13ab5f57d1fd.png" title="Do search: rozetka" width="960"/>
+                <img src="scaled_e738dbc734c564b6d0ba9ab1a53e8ea10d22863d427dd76dca9ed4ec847a6d13.png" title="Do search: rozetka: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.4.1-rc.2</span>
+</div>
+</body>
+</html>
